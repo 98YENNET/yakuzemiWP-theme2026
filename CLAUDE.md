@@ -8,12 +8,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## このディレクトリを触る前提
 
-- **ディレクトリ全体が `.gitignore` 対象です** (リポジトリ直下の `.gitignore:9` — `yz/wp-content/themes/yakuzemi/`)
-  。ここで何を編集しても `git status` には現れません。バージョン管理されている古いスナップショットは隣の `yakuzemi_/`
-  ですが、本番と一致している保証はないので**参照用としてのみ**扱い、編集対象にはしないでください。
+- **このディレクトリは、上の階層のwordpress全体のgitのサブモジュールです。** 
 - テーマヘッダ上の名前は "Yakugaku Seminar" / Author "SMILE FM 76.7MHz" / Version "2016.6" (style.css:1-8)。実態はその後
   WEELOCH（gb@98yen.net）による継ぎ足し改修が積み重なった状態です。
 - ビルド・テスト・リンタなし。`*.php` / `*.css` / `*.js` を直接編集し、ブラウザで叩いて確認するワークフローです。
+
+## 編集の注意点
+- 変更はこのディレクトリにのみ行い、WP本体への変更は行わない
+
+## 確認
+- 動作確認は、```http://yakuzemi.test/```
+で行います。
 
 ## テンプレート解決の癖（年タグ付きファイルの扱い）
 
