@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* css 4.6.0-45 Copyright (c) 2018 d-berry */
+
+#header {
+    display: block;
+    height: 0px;
+    background-color: #ffffff;
+}
+
+.header-space {
+    top: 0px;
+}
+
+#footer-color {
+    background-color: rgba(102, 102, 102, 0.8);
+}
+
+#footer {
+    background-size: 400px 51px;
+    height: 51px;
+}
+
+.footer-space {
+    bottom: 51px; /* #footerのheithgと同じ値(デザインによっては増減あり) */
+}
+
+#flipper-component {
+    background-color: #f5f5f5;
+}
+
+#titlebar {
+    color: #ffffff;
+    background-color: rgba(65, 75, 79, 0.8);
+}
+
+#titlebar-setting {
+    width: 0px;
+}
+
+#setting-btn {
+    display: none;
+}
+
+.slidemenu-m .slidemenu-titlebar {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+.scroll-inner {
+    background-color: #aaaaaa;
+}
+
+.hover .color-btn, .slidemenu-m .hover .color-btn, #list-slidemenu .hover .color-btn {
+    background-color: transparent;
+}
+
+.active .color-btn, .slidemenu-m .active .color-btn, #list-slidemenu .active .color-btn, #footer .active .color-btn {
+    background-color: transparent;
+}
+
+.hover .color-item, .slidemenu-m .hover .color-item, #list-slidemenu .hover .color-item, #footer .hover .color-item {
+    background-color: transparent;
+}
+
+.active .color-btn, .slidemenu-m .active .color-btn, #list-slidemenu .active .color-btn {
+    background-color: #333333;
+}
+
+
+#searchview-btn,
+#list-btn,
+#share-btn,
+#fusen-btn,
+#tegaki-btn {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.footer-list .box {
+    padding: 0;
+}
+
+/* 検索 */
+#searchview-btn .icon {
+    background-image: url(../../html5/images/search_m.png);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+/* 目次 */
+#list-btn .icon {
+    background-image: url(../../html5/images/mokuji_m.png);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+/* 共有 */
+#share-btn .icon {
+    background-image: url(../../html5/images/share_m.png);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+/* 付箋 */
+#fusen-btn .icon {
+    background-image: url(../../html5/images/fusen_m.png);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+/* ペン */
+#tegaki-btn .icon {
+    background-image: url(../../html5/images/memo_m.png);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+/**************************************************************
+
+メニューバー（目次／検索結果／共有／付箋／ペン）
+
+**************************************************************/
+
+/*******
+目次パネル内の各ボタン
+*************************/
+/* 目次ボタン */
+#textindex-btn .icon {
+    background: url('../../html5/images/text.png') no-repeat 0 0;
+    background-size: 45px 25px;
+    width: 45px;
+    height: 25px;
+}
+
+/* サムネイルボタン */
+#thumbnail-btn .icon {
+    background: url('../../html5/images/img.png') no-repeat 0 0;
+    background-size: 34px 25px;
+    width: 34px;
+    height: 25px;
+}
+
+/* ダウンロード（PDF）ボタン */
+#pdf-btn .icon {
+    background: url('../../html5/images/pdf.png') no-repeat 0 0;
+    background-size: 26px 25px;
+    width: 26px;
+    height: 25px;
+}
+
+/* 付箋ボタン */
+#fusenlist-btn .icon {
+    background: url('../../html5/images/husen.png') no-repeat 0 0;
+    background-size: 40px 25px;
+    width: 40px;
+    height: 25px;
+}
+

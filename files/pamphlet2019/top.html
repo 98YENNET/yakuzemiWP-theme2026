@@ -1,0 +1,15 @@
+﻿<html>
+<head>
+    <title>HTML5 Webook</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script>
+        var flipper_url = "book/index.html";
+
+        if (location.search)
+            flipper_url += location.search;
+        if (location.hash)
+            flipper_url += location.hash;
+        location.href = flipper_url;
+    </script>
+</head>
+</html>

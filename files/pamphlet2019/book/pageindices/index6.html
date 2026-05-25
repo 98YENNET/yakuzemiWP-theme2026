@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="6">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            6/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                6オンライン教室あなたのPC、スマホが薬ゼミの教室になる！まずは、無料お試しライセンスに登録しよう！https://yakuzemi.study.jp/rpv/国家試験合格への4種の神器「青本講義動画」「ユニット動画＆　マイカリキュラム」「国試問題＆解説動画」「科目の質問&チューター制度」12342019年度の全日制コースの青本講義動画を完全収録！さらに確認テストをWeb上で受験できます。毎月、薬ゼミのオリジナルテストを受験すると、あなたの弱点分野のユニット動画が自動的に生成されるシステムです！弱点分野だけを効率よく勉強することができます。薬ゼミの取組み新時代の薬剤師へ、薬ゼミだからできる新しい取組み業界初！第97～104回（104回は2019年6月配信予定）の国家試験全問題に解説動画が見られます！難問もわかりやすく理解できると大好評☆勉強していてわからないところは、いつでも専任講師に質問できます！さらに、一人ひとりに専任のチューターがつきます。経験豊富な講師が担当していますので、勉強方法がわからない、テストの成績が伸び悩んでいる、など相談しながら解決できます！
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#6">../index.html#6</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=6'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

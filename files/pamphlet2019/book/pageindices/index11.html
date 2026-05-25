@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="11">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            11/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                〒920-0031　石川県金沢市広岡2-13-5　MHM金沢ビル３FTel 　076-261-8903　　学生を「輝き」へと導く教室▶ 金沢教室
+                〒460-0008 愛知県名古屋市中区栄4-1-8　栄サンシティービル10FTel 　052-262-7589　家族を超える、厳しさと温かさのある教室▶
+                名古屋教室 〒730-0013　広島県広島市中区八丁堀16-3　広島第一ビル5FTel 　082-511-8903　喜びの絶えない、合格へとつなぐ教室▶
+                広島教室 〒221-0835　神奈川県横浜市神奈川区鶴屋町3-32-13　第2安田ビル6FTel 　045-594-8903　笑顔あふれる前向きな教室▶
+                横浜教室 〒651-0083　兵庫県神戸市中央区浜辺通5-1-14　神戸商工貿易センタービル17FTel
+                　078-230-8903　全員が一致団結し思いを叶える教室▶ 神戸教室 〒530-0013 大阪府大阪市北区茶屋町1-27　ABC-MART梅田ビル10FTel
+                　06-6376-8903　愛情ある厳しさで徹底サポート！▶ 大阪第2教室◆ 川越学生寮BayLaurel（べイ・ローレル） 〒530-0011
+                大阪府大阪市北区大深町4-20　グランフロント大阪タワーA16FTel 　06-6374-8903　愛情ある厳しさで徹底サポート！▶
+                大阪教室 〒812-0013　福岡県福岡市博多区博多駅東1-9-11　大成博多駅東ビル5FTel
+                　092-411-8903　志を高く持ち、国試に合格する力を育む▶ 博多教室 〒815-0033　福岡県福岡市南区大橋1-4-31　Tel
+                　092-561-6651　変化の先に、笑顔あり。共に前進し合格を掴もう！▶福岡大橋教室
+                部屋数・・・59室（個室7.7帖）　建物の概要・・・鉄筋4階建平成26年に完成。川越教室に隣接し、勉強に集中できる静かな環境の館内には、自習室も完備しています。11教室案内YAKUGAKU
+                SEMINAR 2019
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#11">../index.html#11</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=11'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

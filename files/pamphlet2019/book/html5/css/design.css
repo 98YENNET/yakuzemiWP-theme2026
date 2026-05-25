@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* css 4.6.0-45 Copyright (c) 2018 d-berry */
+
+#header {
+    display: block;
+    height: 40px;
+}
+
+#header-color {
+    background-color: #ffffff;
+}
+
+.header-space {
+    top: 40px;
+}
+
+
+/* ブック背景 */
+#flipper-component {
+    background-image: url(../../html5/images/bg.gif);
+}
+
+
+.slidemenu, .slidemenu-titlebar {
+    color: #ffffff;
+    background-color: #777d81;
+}
+
+/* ボタンの色（メニューバー・フッター共通） */
+
+.color-btn, .slidemenu .color-btn, #list-slidemenu .color-btn, #footer .color-btn {
+    background-color: transparent;
+}
+
+.hover .color-btn, .slidemenu .hover .color-btn, #list-slidemenu .hover .color-btn {
+    background-color: #666666;
+}
+
+.active .color-btn, .slidemenu .active .color-btn, #list-slidemenu .active .color-btn {
+    background-color: #333333;
+}
+
+.hover .color-item, .slidemenu .hover .color-item, #list-slidemenu .hover .color-item {
+    background-color: #666666;
+}
+
+.active .color-item, .slidemenu .active .color-item, #list-slidemenu .active .color-item {
+    background-color: #333333;
+}
+
+/**************************************************************
+
+メニューバー（目次／検索結果／共有／付箋／ペン）
+
+**************************************************************/
+.slidemenu .segmented .segmented-btn .icon,
+.slidemenu-m .segmented .segmented-btn .icon {
+    margin-top: -11px;
+}
+
+/*******
+目次パネル内の各ボタン
+*************************/
+/* 目次ボタン */
+#textindex-btn .icon {
+    background: url('../../html5/images/text.png') no-repeat 0 0;
+    background-size: 45px 25px;
+    width: 45px;
+    height: 25px;
+}
+
+/* サムネイルボタン */
+#thumbnail-btn .icon {
+    background: url('../../html5/images/img.png') no-repeat 0 0;
+    background-size: 34px 25px;
+    width: 34px;
+    height: 25px;
+}
+
+/* 付箋ボタン */
+#fusenlist-btn .icon {
+    background: url('../../html5/images/husen.png') no-repeat 0 0;
+    background-size: 40px 25px;
+    width: 40px;
+    height: 25px;
+}
+
+/**************************************************************
+
+下部コントローラー（フッター）
+
+**************************************************************/
+
+/* コントローラー背景 */
+#footer {
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-size: 400px 51px;
+    height: 51px;
+}
+
+#footer-color {
+    background-color: #666666;
+}
+
+.footer-space {
+    bottom: 51px; /* #footerのheithgと同じ値(デザインによっては増減あり) */
+}
+
+/* コントローラーボタン（共通） */
+.footer-btn {
+}
+
+
+/******
+ ボタンアイコン変更
+*****************************/
+/* 画像ボタン（背景画像・背景色なし） */
+
+.footer-list .box {
+    padding: 0;
+}
+
+/* 検索 */
+
+#search-btn .icon {
+    background-image: url(../../html5/images/search.jpg);
+    background-size: 60px 32px;
+    width: 60px;
+    height: 32px;
+}
+
+#search-btn .icon:hover {
+    background-image: url(../../html5/images/search_ro.jpg);
+}
+
+
+/* 目次 */
+#list-btn .icon {
+    background-image: url(../../html5/images/mokuji.jpg);
+    background-size: 65px 51px;
+    background-position: 0 0;
+    width: 65px;
+    height: 51px;
+}
+
+#list-btn .icon:hover {
+    background-image: url(../../html5/images/mokuji_ro.jpg);
+}
+
+/* 最初へ */
+#fliplmax-btn .icon {
+    background-image: url(../../html5/images/leftmost.jpg);
+    background-size: 97px 51px;
+    background-position: 0 0;
+    width: 97px;
+    height: 51px;
+}
+
+#fliplmax-btn .icon:hover {
+    background-image: url(../../html5/images/leftmost_ro.jpg);
+}
+
+/* 戻る */
+#flipl-btn .icon {
+    background-image: url(../../html5/images/left.jpg);
+    background-size: 104px 51px;
+    background-position: 0 0;
+    width: 104px;
+    height: 51px;
+}
+
+#flipl-btn .icon:hover {
+    background-image: url(../../html5/images/left_ro.jpg);
+}
+
+/* 進む */
+#flipr-btn .icon {
+    background-image: url(../../html5/images/right.jpg);
+    background-size: 104px 51px;
+    background-position: 0 0;
+    width: 104px;
+    height: 51px;
+}
+
+#flipr-btn .icon:hover {
+    background-image: url(../../html5/images/right_ro.jpg);
+}
+
+/* 最後 */
+#fliprmax-btn .icon {
+    background-image: url(../../html5/images/rightmost.jpg);
+    background-size: 97px 51px;
+    background-position: 0 0;
+    width: 97px;
+    height: 51px;
+    padding-right: 15px;
+}
+
+#fliprmax-btn .icon:hover {
+    background-image: url(../../html5/images/rightmost_ro.jpg);
+}
+
+/* ページ数 */
+/* ページ数表示＆入力欄 */
+#flippage {
+    background-size: 80px 30px;
+    background-position: 0 0;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+
+/* 拡大 */
+#zoomin-btn .icon {
+    background-image: url(../../html5/images/large.jpg);
+    background-size: 38px 51px;
+    background-position: 0 0;
+    width: 38px;
+    height: 51px;
+}
+
+#zoomin-btn .icon:hover {
+    background-image: url(../../html5/images/large_ro.jpg);
+}
+
+/* 縮小 */
+#zoomout-btn .icon {
+    background-image: url(../../html5/images/small.jpg);
+    background-size: 38px 51px;
+    background-position: 0 0;
+    width: 38px;
+    height: 51px;
+    padding-right: 25px;
+}
+
+#zoomout-btn .icon:hover {
+    background-image: url(../../html5/images/small_ro.jpg);
+}
+
+
+/* 印刷 */
+#print-btn .icon {
+    background-image: url(../../html5/images/print.jpg);
+    background-size: 63px 51px;
+    background-position: 0 0;
+    width: 63px;
+    height: 51px;
+}
+
+#print-btn .icon:hover {
+    background-image: url(../../html5/images/print_ro.jpg);
+}
+
+/* PDF */
+#listpdf-btn .icon {
+    background-image: url(../../html5/images/pdf.jpg);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+#listpdf-btn .icon:hover {
+    background-image: url(../../html5/images/pdf_ro.jpg);
+}
+
+/* 共有 */
+#share-btn .icon {
+    background-image: url(../../html5/images/share.jpg);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+#share-btn .icon:hover {
+    background-image: url(../../html5/images/share_ro.jpg);
+}
+
+/* 付箋 */
+#fusen-btn .icon {
+    background-image: url(../../html5/images/fusen.jpg);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+#fusen-btn .icon:hover {
+    background-image: url(../../html5/images/fusen_ro.jpg);
+}
+
+/* ペン */
+#tegaki-btn .icon {
+    background-image: url(../../html5/images/memo.jpg);
+    background-size: 62px 51px;
+    background-position: 0 0;
+    width: 62px;
+    height: 51px;
+}
+
+#tegaki-btn .icon:hover {
+    background-image: url(../../html5/images/memo_ro.jpg);
+}
+
+.tegakicolor-message {
+    display: none;
+}
+
+/**************************************************************
+
+ブラウザ幅が狭い時のフッター表示調整
+（#footer.min）
+
+**************************************************************/
+
+@media screen and (max-width: 765px) {
+
+    #footer.min #list-btn .icon,
+    #footer.min #print-btn .icon,
+    #footer.min #share-btn .icon,
+    #footer.min #fusen-btn .icon,
+    #footer.min #tegaki-btn .icon {
+        background-size: 40px 80px;
+        background-position: 0 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    #footer.min #list-btn .icon:hover,
+    #footer.min #print-btn .icon:hover,
+    #footer.min #share-btn .icon:hover,
+    #footer.min #fusen-btn .icon:hover,
+    #footer.min #tegaki-btn .icon:hover {
+        background-position: left bottom;
+    }
+
+}

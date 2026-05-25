@@ -1,0 +1,84 @@
+北海道・東北	○	○	ツルハホールディングス	https://www.tsuruha-hd.co.jp/
+北海道・東北			オオノ（ひかり薬局・プラザ薬局）	http://www.hikari-pharmacy.co.jp/
+北海道・東北			くすりのマルト	http://www.drug-maruto.co.jp/
+北海道・東北			コスモファーマ	http://www.cosmo-ph.co.jp/
+北海道・東北			サッポロドラッグストアー	https://satudora-hd.co.jp/
+北海道・東北			シップヘルスケアファーマシー東日本　	https://www.shpe.co.jp/
+北海道・東北			ポプラ薬局	https://www.e-popura.jp/
+北海道・東北			メディカルシステムネットワーク（なの花薬局）	https://www.msnw.co.jp/
+北海道・東北			ライブリー	https://www.lively-pharma.jp/
+北海道・東北			ワークイン（つくし薬局）	http://www.294ph.com/
+関東甲信越	○	○	カメガヤ	http://www.kamegaya.co.jp/
+関東甲信越	○	○	クスリのナカヤマ	http://www.kusuri-nakayama.com/
+関東甲信越	○	○	ワイエム（パンダ薬局グループ）	http://ym-tokyo.com/
+関東甲信越	○		クオール	https://www.qol-net.co.jp/
+関東甲信越	○		クリエイトエス・ディー	https://www.create-sd.co.jp/
+関東甲信越	○		日本メディカルシステム	https://www.jmsys.co.jp/
+関東甲信越			アイセイ薬局	https://www.aisei.co.jp/
+関東甲信越			アイリスファーマ	https://www.ph-k.co.jp/
+関東甲信越			飛鳥薬局		https://www.asuka-p.co.jp/
+関東甲信越			アポロメディカルホールディングス（アイランド薬局）	https://www.islands.co.jp/
+関東甲信越			イオンリテール	https://www.aeonretail.jp/company/
+関東甲信越			イントロン　	http://intron.co.jp/
+関東甲信越			ウエルシア薬局	https://www.welcia-yakkyoku.co.jp/
+関東甲信越			akホールディングス	https://www.ak-holdings.co.jp/
+関東甲信越			加藤薬局	http://www.katoyakkyku.com/
+関東甲信越			カワチ薬品	http://www.cawachi.co.jp/
+関東甲信越			クスリのマルエ	https://marue-drug.co.jp/
+関東甲信越			くすりの福太郎	https://www.tsuruha.info/fukutaro/
+関東甲信越			クラフト（さくら薬局）	http://www.kraft-net.co.jp/
+関東甲信越			サン薬局	https://www.sun-pharmacy.jp/top.html
+関東甲信越			シーエスグループ本部	http://www.cspg.co.jp/
+関東甲信越			セキ薬品（チューリップカンパニー）	https://www.sekiyakuhin.co.jp/
+関東甲信越			千葉薬品（ヤックスドラッグ）	http://www.yacs.jp/home/
+関東甲信越			トライアドジャパン	http://www.triad-j.co.jp/
+関東甲信越			ピノキオ薬局	https://pinokio-pharmacy.com/
+関東甲信越			ファーコス	https://pfercos.co.jp/
+関東甲信越			ファーマライズホールディングス	https://www.pharmarise.com/
+関東甲信越			ミアヘルサ株式会社	https://www.merhalsa.jp/recruiting/
+関東甲信越			メディカルガーデン	https://www.medical-garden.com/
+関東甲信越			日本調剤　	https://www.nicho.co.jp/
+関東甲信越			富士薬品	https://www.fujiyakuhin.co.jp/
+関東甲信越			薬樹	https://www.yakuju.co.jp/
+関東甲信越			雄飛堂（雄飛堂薬局）	https://www.yuhido.com/
+関東甲信越			龍生堂本店（クスリの龍生堂薬局）	https://www.ryuseido.co.jp/
+中部・北陸	○	○	デー・ピー・シー（DPC）	http://dpc-net.ne.jp/
+中部・北陸	○		クスリのアオキ	https://www.kusuri-aoki.co.jp/
+中部・北陸	○		スギ薬局	https://www.drug-sugi.co.jp/
+中部・北陸			アマノ	https://www.amano-ltd.co.jp/
+中部・北陸			杏林堂薬局（ツルハホールディングス）	https://www.kyorindo.co.jp/
+中部・北陸			協和ケミカル（キョーワ薬局）	https://www.kyowa-chemical.co.jp/
+中部・北陸			たんぽぽ薬局	https://www.tanpopo-ph.co.jp/
+中部・北陸			中日エムエス（中日調剤薬局）	http://www.chunichi-ms.co.jp/
+中部・北陸			中部薬品（Vドラッグ）	https://www.vdrug.co.jp/
+中部・北陸			ドリーム・メディカル	https://dream-medical.co.jp/
+中部・北陸			メディカル一光（フラワー薬局）	https://www.m-ikkou.co.jp/
+中部・北陸			ビー・アンド・ディー	https://www.bd-drug.com/
+中部・北陸			ヤナセ薬局	http://www.yanase-drug.com/
+関西			I&H	https://i-h-inc.co.jp/
+関西			コクミン	https://www.kokumin.co.jp/
+関西			ゴダイ株式会社	https://www.godai.net/
+関西			キリン堂	https://www.kirindo.co.jp/
+関西			医療法人　錦秀会	http://kinshukai.or.jp/
+関西			シミズ薬品	http://www.dacs-shimizu.jp/
+関西			ジャパンファーマシー	http://jp-pharmacy.jp/
+関西			トライアドウエスト（かもめ薬局）	http://triad-w.co.jp/
+関西			ハートフルケア（ミヤケ薬局）	https://www.heartfulcare.com/
+関西			ファルメディコ（ハザマ薬局）	https://www.pharmedico.com/
+関西			ユーアイファーマシー	https://www.ui-ph.co.jp/
+関西			ゆうホールディングス	https://www.uno-upd.co.jp/
+中国・四国			エム・エス経営企画（サンヨー薬局）	http://www.sanyo3417.jp/
+中国・四国			ケイ・ディ・フドー	http://www.lifeartgroup.com/
+中国・四国			ツルハグループドラッグ＆ファーマシー西日本（TGN）	http://tgn.tsuruha-hd.co.jp/
+中国・四国			ファーマシィ	https://www.pharmacy-net.co.jp/
+中国・四国			マイライフ（オール薬局）	https://www.my-life.jp/
+中国・四国			リライアンス（コスモス薬局）	https://www.reliance-cosmos.co.jp/
+中国・四国			レデイ薬局	https://www.lady-drug.co.jp/
+九州			アルナ薬局	http://www.aruna-ds.co.jp/
+九州			大賀薬局	https://www.ohga-ph.com/
+九州			サンキュードラッグ	https://www.drug39.co.jp/
+九州			下川薬局	https://www.shimokawa-ph.co.jp/
+九州			新生堂薬局	https://sinseido-co.jp/
+九州			タカサキ	https://www.takasaki-pharm.co.jp/
+九州			タケシタ調剤薬局	https://www.takeshita-pharmacy.com/
+九州			ドラッグストア　モリ	http://www.doramori.co.jp/

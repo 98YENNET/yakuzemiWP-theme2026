@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="17">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            17/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                17講師紹介氏名 ・ 出身大学・担当教科の順に記載してあります。（2019年1月現在）YAKUGAKU SEMINAR 2019
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#17">../index.html#17</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=17'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

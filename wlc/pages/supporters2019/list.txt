@@ -1,0 +1,83 @@
+7	533	有	〇	北海道・東北	ツルハホールディングス	〒065-0024	北海道札幌市東区北24条東20丁目1-21	https://www.tsuruha-hd.co.jp	https://www.tsuruha-cs.com
+25	586	有		北海道・東北	オオノ（ひかり薬局・プラザ薬局）	〒980-0824	宮城県仙台市青葉区支倉町4番34号	http://www.hikari-pharmacy.co.jp/	http://www.hikari-pharmacy.co.jp/recruit/new-graduate-2019
+21	604	有		北海道・東北	カメイ　	〒980-8583	仙台市青葉区国分町3丁目1-18	https://www.kamei.co.jp/	https://www.kamei.co.jp/recruit/
+				北海道・東北	くすりのマルト	〒979-0195	福島県いわき市勿来町窪田十条3-1	http://www.drug-maruto.co.jp/	http://www.drug-maruto.co.jp/recruit.html
+11	539	有		北海道・東北	コスモファーマ	〒963-8025	福島県郡山市桑野三丁目12番２号	http://www.cosmo-ph.co.jp/	http://www.cosmo-ph.co.jp/recruit/
+27	746	有		北海道・東北	サッポロドラッグストアー	〒002-8003	北海道札幌市北区太平3条1丁目2番18号	https://satudora-hd.co.jp	https://satudora-hd.co.jp/recruit/
+26	593	有		北海道・東北	シップヘルスケアファーマシー東日本　	〒981-3133	宮城県仙台市泉区泉中央一丁目７番地の１　５階	https://www.shpe.co.jp/	https://www.shpe.co.jp/recruit/
+				北海道・東北	ポプラ薬局	〒053-0803	北海道苫小牧市矢代町2-9-12	https://www.e-popura.jp/	https://www.e-popura.jp/recruit/
+23	1161	有		北海道・東北	メディカルシステムネットワーク（なの花薬局）	〒060-0010	札幌市中央区北10条西24丁目3番地 AKKビル	https://www.msnw.co.jp	
+14	552	有	〇	中部・北陸	デー・ピー・シー（DPC）	〒410-0056	静岡県沼津市高島町12-12-201	https://www.dpc-net.ne.jp	http://dpc-net.ne.jp/recruitnew/entry-new.html
+53	846	有		中部・北陸	アマノ	〒461-0004	愛知県名古屋市東区葵一丁目3番15号	https://www.amano-ltd.co.jp	https://www.amano-ltd.co.jp/recruit/
+50	621	有		中部・北陸	ウォルナットファーマシーズ	〒460-0008	名古屋市中区栄3‐18‐1　ナディアパークビジネスセンタービル13Ｆ	http://walnut.nagoya/	http://walnut.nagoya/recruit/
+48	1182			中部・北陸	協和ケミカル（キョーワ薬局）	〒461-0001	愛知県名古屋市東区泉2-26-2	https://www.kyowa-chemical.co.jp	https://www.kyowa-chemical.co.jp/recruit/recruit/pharmacist/
+10	538	有		中部・北陸	クスリのアオキ	〒924-8510	石川県白山市松本町2512番地	https://www.kusuri-aoki.co.jp/	https://www.kusuri-aoki-recruit.jp/yakuzai/sinsotu_youkou/
+13	544	有		中部・北陸	たんぽぽ薬局	〒500-8828	岐阜市若宮町9丁目16番地トーカイビル9階	https://www.tanpopo-ph.co.jp	https://www.tanpopo-ph.co.jp/recruit/etc/recruitments
+52	794	有		中部・北陸	中日エムエス（中日調剤薬局）	〒460-0004 	名古屋市中区新栄町1-3　日丸名古屋ビル9階	http://www.chunichi-ms.co.jp/	http://www.chunichi-ms.co.jp/recruit/
+49	570	有		中部・北陸	中部薬品（Vドラッグ）	〒507-0078 	岐阜県多治見市高根町4丁目29番地	https://www.vdrug.co.jp/	https://www.vdrug.co.jp/recruit/drugstore/
+51	640	有		中部・北陸	名北調剤（コスモス調剤薬局）	〒450-0002 	愛知県名古屋市中村区名駅5-4-14 花車ビル北館8F	https://www.meihoku-groups.co.jp	https://www.meihoku-groups.co.jp/requirements/
+18	561	有		中部・北陸	メディカル一光（フラワー薬局）	〒514-0035	三重県津市西丸之内36番25号	https://www.m-ikkou.co.jp/	https://www.m-ikkou.co.jp/pharm_st/
+54	937	有		中部・北陸	ヤナセ薬局	〒473-0901	愛知県豊田市御幸本町1丁目244番地	http://www.yanase-drug.com/	http://www.yanase-drug.com/recruit/
+69	878	有		中国・四国	エム・エス経営企画（サンヨー薬局）	〒700-0013	岡山県岡山市北区伊福町2丁目30-3	http://www.sanyo3417.jp/	http://www.sanyo3417.jp/recruit1/
+67	682	有		中国・四国	ケイ・ディ・フドー	〒736-0046	広島県安芸郡海田町窪町2番14号	http://www.lifeartgroup.com/	http://www.lifeartgroup.com/recruit/
+65	1160	有		中国・四国	ツルハグループドラッグ＆ファーマシー西日本（TGN）	〒733-0841	広島県広島市西区井口明神一丁目1番10号	http://tgn.tsuruha-hd.co.jp/	http://www.tsuruha-cs.com/
+17	559	有		中国・四国	ファーマシィ	〒720-0825	広島県福山市沖野上町四丁目13番27号	http://www.pharmacy-net.co.jp/	http://www.pharmacy-recruit.com/recruit/
+77				中国・四国	マイライフ（オール薬局）	〒737-0046	広島県呉市中通1丁目3-12	https://www.my-life.jp	https://www.my-life.jp/recruit/
+66	645	有		中国・四国	リライアンス（コスモス薬局）	〒730-0021	広島県広島市中区胡町4-28	https://www.reliance-cosmos.co.jp	https://www.reliance-cosmos.co.jp/recruit/
+				中国・四国	レデイ薬局	〒790-8556	愛媛県松山市南江戸4-3-37	https://www.lady-drug.co.jp/	https://lady-recruit.jp/
+75	954	有		九州	アルナ薬局	〒849-1602	佐賀県藤津郡太良町大字多良 1560番地1	http://www.aruna-ds.co.jp/	http://www.aruna-ds.co.jp/recruit/
+71	568	有		九州	大賀薬局	〒812-0011	福岡市博多区博多駅前3-9-1 大賀博多駅前ビル3F	https://www.ohga-ph.com	https://www.ohga-ph.com/recruit/
+74	844	有		九州	下川薬局	〒862-0976	熊本市中央区九品寺3丁目16番61号	https://www.shimokawa-ph.co.jp	https://www.shimokawa-ph.co.jp/recruit
+72	579	有		九州	新生堂薬局	〒811-1364	福岡市南区中尾3丁目12番17号	https://sinseido-co.jp	https://sinseido-recruit.com
+84				九州	タカサキ	〒807-0815	福岡県北九州市八幡西区本城東2-4-1	http://www.takasaki-pharm.co.jp/	http://www.takasaki-pharm.co.jp/recruit.html
+82				九州	タケシタ調剤薬局	〒802-0077	福岡県北九州市小倉北区馬借2-6-1　3F	http://www.takeshita-pharmacy.com/	http://www.takeshita-pharmacy.com/recruit.html
+73	620	有		九州	トータル・メディカルサービス（さくら薬局）	〒060-0010	札幌市中央区北10条西24丁目3番地 AKKビル	https://www.nanohana-ph.jp/company/tms.php	https://www.nanohana-ph.jp/recruit/
+70	1156	有		九州	ドラッグストア　モリ	〒838-0065	福岡県朝倉市一ッ木1148番地の1	http://www.doramori.co.jp/	http://www.doramori.co.jp/recruit/
+5	531	有	〇	関東甲信越	アイセイ薬局	〒100-0005	東京都千代田区丸の内2-2-2丸の内三井ビルディング	https://www.aisei.co.jp/	https://www.aisei.co.jp/recruit/new_graduates2019/
+37	713	有	〇	関東甲信越	akホールディングス	〒103-0028	東京都中央区八重洲1-5-15 田中八重洲ビル6階	https://www.ak-holdings.co.jp	https://ten.1049.cc/tp/ak-holdings/
+39	755	有	〇	関東甲信越	カメガヤ	〒222-0033 	横浜市港北区新横浜2-12-4	http://www.kamegaya.co.jp	https://kamegaya-job.jp/list/ds_8000735107/
+4	527	有	〇	関東甲信越	クオール	〒105-8452	東京都港区虎ノ門4-3-1 城山トラストタワー37階	https://www.qol-net.co.jp/	https://www.qol-net.co.jp/recruit/fresh_pharmacist/
+42	822	有	〇	関東甲信越	クスリのナカヤマ	〒214-0014	川崎市多摩区登戸2767 サンシャイン向ヶ丘3階	http://www.kusuri-nakayama.com/	http://www.kusuri-nakayama.com/saiyo/
+12	540	有	〇	関東甲信越	クリエイトエス・ディー	〒225-0014	神奈川県横浜市青葉区荏田西2-3-2	https://www.create-sd.co.jp	https://www.createsd-recruit.jp/entry/recruit_new_pharma.html
+44	875	有	〇	関東甲信越	ワイエム	〒105-0013	東京都港区浜松町1-29-10	http://ym-tokyo.com/	http://www.ym-tokyo.com/recruit
+				関東甲信越	アイリスファーマ	〒101-0054	東京都千代田区神田錦町1-1　神田橋安田ビル	https://www.ph-k.co.jp/	https://www.ph-k.co.jp/recruit/
+15	554	有		関東甲信越	アポロメディカルホールディングス（アイランド薬局）	〒170-0005	東京都豊島区南大塚２丁目45番８号 ニッセイ大塚駅前ビル８階	https://www.islands.co.jp	https://www.islands.co.jp/recruitment/
+6	532	有		関東甲信越	イオンリテール	〒261-0023 	千葉県千葉市美浜区中瀬一丁目5番地1	https://www.aeonretail.jp/company/	https://www.aeonretail.jp/saiyo/pharmacist/information/newgraduate.html
+20	599	有		関東甲信越	イントロン　	〒350-1123	埼玉県川越市脇田本町13-5 　川越第一生命ビル8F	http://intron.co.jp/	http://www.intron.co.jp/recruit/
+1	523	有		関東甲信越	ウエルシア薬局	〒101-0021	東京都千代田区外神田2-2-15	http://www.welcia-yakkyoku.co.jp/	http://recruit.welcia-yakkyoku.co.jp/new-graduate/pharmacist/
+83				関東甲信越	うさぎ薬局	〒108-0075	東京都港区港南2-16-2	http://usagipharmacy.com/	https://usagipharmacy-recruit.com/
+40	782	有		関東甲信越	オール・プラン社	〒259-1141	神奈川県伊勢原市上粕屋1271-3	http://www.allplan.co.jp	http://www.allplan.co.jp/recruit/offers_newgraduates.html
+				関東甲信越	加藤薬局	〒197-0011	東京都福生市福生992-2 NTビル1　2階	http://www.katoyakkyku.com/	http://www.katoyakkyku.com/publics/index/4/
+79				関東甲信越	川崎大師みどり薬局	〒210-0802	神奈川県川崎市川崎区大師駅前1-5-4	http://kawasakidaishi-midori-ph.com/	http://kawasakidaishi-midori-ph.com/recruit/
+24	555	有		関東甲信越	カワチ薬品	〒323-0061	栃木県小山市卒島1293	http://www.cawachi.co.jp/	http://www.cawachi.co.jp/recruit/graduate/pharmacy.html
+45	1005	有		関東甲信越	クスリのマルエ	〒371-0221 	群馬県前橋市樋越町83	https://marue-drug.co.jp	https://marue-drug.co.jp/recruit/new-graduate.html
+31	562	有		関東甲信越	くすりの福太郎	〒273-0107	千葉県鎌ケ谷市新鎌ケ谷二丁目8番17号 新鎌ケ谷Fタワー8階	https://www.tsuruha.info/fukutaro/	https://www.tsuruha.info/fukutaro/requirements/c1.html
+3	526	有		関東甲信越	クラフト（さくら薬局）	〒100-8225	東京都千代田区丸の内1-1-1 パレスビル10階	http://www.kraft-net.co.jp/	http://www.kraft-net.co.jp/rec/
+43	873	有		関東甲信越	サン薬局	〒234-0054	神奈川県横浜市港南区港南台4-7-29B-102	http://www.sun-pharmacy.jp/	http://www.sun-pharmacy.jp/career/
+28	1178	有		関東甲信越	シーエスグループ本部	〒330-0854	埼玉県さいたま市大宮区桜木町2-251 中村ビル４F	http://www.cspg.co.jp/	http://www.cspg.co.jp/recruit/
+38	747	有		関東甲信越	セキ薬品（チューリップカンパニー）	〒345-0801	埼玉県南埼玉郡宮代町百間4-2-22	https://www.sekiyakuhin.co.jp/	https://www.recruit-sekiyakuhin.com/
+32	594	有		関東甲信越	タカサ（薬局タカサ）	〒290-0055	千葉県市原市五井東１丁目１−１	https://www.takasa.co.jp/	https://www.takasa.co.jp/recruit/
+30	560	有		関東甲信越	千葉薬品（ヤックスドラッグ）	〒260-0025	千葉県千葉市中央区問屋町1-35　ポートサイドタワー28階	http://www.yacs.jp/home/	http://www.yacs.jp/home/recruit/newgrad/pharmacist2020/
+36	691	有		関東甲信越	トライアドジャパン	〒252-0303	神奈川県相模原市南区相模大野3丁目14番20号	http://www.triad-j.co.jp/	http://www.triad-j.co.jp/recruit/new.html
+9	537	有		関東甲信越	ファーコス	〒101-0022	東京都千代田区神田練塀町68番地1 ムラタヤビル2階	https://www.pfercos.co.jp/	http://www.pfercos.co.jp/pfercos/recruit/recruit/new
+47	1155	有		関東甲信越	ファーマ・プラス	〒370-1203	群馬県高崎市矢中町20-20 SR矢中ビル 1階	http://pharma-plus.co.jp/	https://www.pharma-plus.co.jp/recruit
+16	558	有		関東甲信越	ファーマライズホールディングス	〒164-0011	東京都中野区中央1丁目38-1	https://www.pharmarise.com	https://www.pharmarise.com/recruit/2019/
+46	1157	有		関東甲信越	メディカルガーデン	〒243-0406	神奈川県海老名市国分北2-15-14	http://medical-garden.com/	http://medical-garden.com/contact.html
+33	613	有		関東甲信越	日本アポック	〒350-1123	埼玉県川越市脇田本町6番地20くぼたビル3F	https://www.apoch.co.jp	https://www.apoch.co.jp/recruit/new_graduate/
+2	525	有		関東甲信越	日本調剤　	〒100-6737	東京都千代田区丸の内1-9-1　グラントウキョウノースタワー37階	https://www.nicho.co.jp/	https://www.nicho.co.jp/shinsotsu/
+29	545	有		関東甲信越	富士薬品	〒330-0854	埼玉県さいたま市大宮区桜木町4丁目383番地	https://www.fujiyakuhin.co.jp	http://www.fujiyakuhin.co.jp/recruit/
+78				関東甲信越	薬樹	〒107-0052	東京都港区赤坂8-5-26	http://www.yakuju.co.jp/	http://www.yakuju.co.jp/recruit/graduate/
+34	641	有		関東甲信越	雄飛堂（雄飛堂薬局）	〒115-0045	東京都北区赤羽2-51-3 NS3ビル2階	https://www.yuhido.com	https://www.yuhido.com/recruit/entry/
+35	687	有		関東甲信越	龍生堂本店（クスリの龍生堂薬局）	〒169-0073	東京都新宿区百人町1-15-18	https://www.ryuseido.co.jp	https://www.ryuseido.co.jp/ryuseido_htdocs/ryuseido_htdocs/info/
+80				関西	アカカベ	〒574-0003	大阪府大東市明美の里町1-71	http://www.akakabe.com/corpo/	http://www.akakabe.com/saiyou/recruit/
+58	583	有		関西	関西メディコ（サン薬局）	〒636-0905	奈良県生駒郡平群町上庄1-14-12	http://kansaimedico.com/	http://kansaimedico.com/recruit/
+19	569	有		関西	キリン堂	〒532-0003	大阪市淀川区宮原4丁目5番36号セントラル新大阪ビル4階	https://www.kirindo.co.jp	https://www.recruit.kirindo.co.jp/pharmacist/
+81				関西	グリーンファーマシー	〒565-0853	大阪府吹田市春日3-20-8	http://www.gp-inc.co.jp/	http://www.gp-inc.co.jp/recruit/
+22	631	有		関西	コクミン	〒559-0007	大阪市住之江区粉浜西1-12-48	https://www.kokumin.co.jp	https://www.kokumin.co.jp/recruit/detail/new/
+76	690			関西	ジャパンファーマシー	〒657-0835	兵庫県神戸市灘区灘北通5-8-10	http://jp-pharmacy.jp/	http://jp-pharmacy.jp/employment/
+61	785	有		関西	トライアドウエスト	〒670-0063	兵庫県姫路市下手野3-3-5	http://triad-w.co.jp/	http://triad-w.co.jp/recruit/
+64	320	有		関西	ハートフルケア（ミヤケ薬局）	〒666-0011	兵庫県川西市出在家町1番6号	http://www.heartfulcare.com/	http://www.heartfulcare.com/recruit2/
+63	1031	有		関西	ファルメディコ（ハザマ薬局）	〒530-0041	大阪市北区天神橋1-9-5 山西屋・西孫ビル2F・3F	https://www.pharmedico.com	http://hazama-web.co.jp/recruit_info/newgraduate/
+57	582	有		関西	フタツカ薬局グループ	〒651-0088	兵庫県神戸市中央区小野柄通７丁目１−１	https://futatsuka.co.jp	https://futatsuka.co.jp/recruit/new/
+62	790	有		関西	ユーアイファーマシー	〒670-0962	兵庫県姫路市南駅前町100番　姫路パラシオ第２ビル3階	https://www.ui-ph.co.jp/	https://www.ui-ph.co.jp/saiyou/
+60	684	有		関西	ゆうホールディングス	〒606-8413　	京都市左京区浄土寺下馬場町106 	https://www.uno-upd.co.jp	https://www.uno-upd.co.jp/vacancy/

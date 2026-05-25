@@ -1,0 +1,13 @@
+/* --- source : /mnt/landiskgx/disks/no1/share/web/c/yak/yakuzemi/simulator/css/compiled/../../scss/a.768-.scss --- */
+.simulators .course .resultContainer {
+    width: 350px;
+    position: fixed;
+    z-index: 34567;
+    top: 80px;
+    right: 0;
+}
+
+.simulators .course .resultContainer table.result, .simulators .course .resultContainer .cacheBack, .simulators .course .resultContainer .final {
+    width: 100%;
+    box-shadow: -5px 2.5px 15px rgba(0, 0, 0, 0.5);
+}

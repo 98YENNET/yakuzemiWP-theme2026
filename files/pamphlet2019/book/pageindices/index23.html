@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="23">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            23/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                薬ゼミの活動薬ゼミCSRグループの紹介薬ゼミは夢ある薬剤師をサポートしています優しい社会の実現に向けて、薬ゼミができるもうひとつのこと生きるしあわせ、すべての人に薬学ゼミナール生涯学習センターは公益社団法人薬剤師認定制度認証機構の認証研修機関です。薬剤師の皆様が現場で使える知識を学ぶ場として、全国数カ所で開催し、ライブ中継もしています。
+                薬学をもっと楽しもう、薬剤師に夢をもとう！そんな思いから創刊され、10年が経過しました。クローバーNet
+                TVにて配信中♪薬ゼミ講師が様々な話題でネット動画を配信します。医療現場で成長を志す薬剤師を応援するコミュニティサイト現役で働く薬剤師の考え方を知ろう！生涯研修認定制度　認証番号G13ワクチン×96,909人の子ども達へJCVの支援活動に参加し、多くの子どもたちに直接ワクチンを届けています。ペットボトルのキャップ回収なども子供達の笑顔につながっています。私たちが使っている参考書。苗木を植樹し、資源を自然に戻しています。その他、医学アカデミー全体で様々なCSR活動を行っています。苗木×122,614本をケニアの大地へ生涯学習　メディア関連▶
+                薬ゼミラクルTV▶ Ph-port THINK CUBE▶
+                YAKUZEMI+（学生向け）城南中央病院川越リハビリテーション病院介護老人保健施設　瑞穂の里介護老人保健施設　志木瑞穂の里グループホームみずほサービス付き高齢者向け住宅みずほ在宅部門特別養護老人ホーム
+                やすらーじゅ瑞穂障害福祉サービス事業所　みずほコミュニティ特別養護老人ホーム
+                志木瑞穂の森一般社団法人一般社団法人クローバーメディア（7店舗運営）社会福祉法人さくら瑞穂会薬ゼミファーマシーサポート事業部事業部Ph-portの季刊誌であり、医療現場で役立つ知識をビジュアルで分かりやすく解説。▶
+                THINK CUBE（薬剤師向け）
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#23">../index.html#23</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=23'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

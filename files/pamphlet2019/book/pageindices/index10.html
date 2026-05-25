@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="10">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            10/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                〒060-0003　北海道札幌市中央区北三条西２-1　NC北専北三条ビル４FTel　 011-281-8903　　一期一会北から熱い思い届けます▶
+                札幌教室 〒101-0062　東京都千代田区神田駿河台2-1-4　ヒルクレスト御茶ノ水4FTel　
+                03-3233-8903　わかるまで向き合います。合格しよう！▶ お茶の水教室 〒150-0002　東京都渋谷区渋谷2-12-15 　日本薬学会
+                長井記念館ビル８ＦTel　 03-5766-0559　寄り添い、支え、歩む教室▶ ▶ ▶
+                〒274-0825　千葉県船橋市前原西2-12-7　津田沼第一生命ビルディング7FTel 　047-478-8903　思いをカタチに！▶ 津田沼教室
+                〒350-1138　埼玉県川越市中台元町1-10-10　Tel 　049-247-8903　温かさと厳しさで人生を変える教室▶ 川越教室
+                〒151-0053　東京都渋谷区代々木2-1-1　 新宿マインズタワー4FTel 　03-3370-8903　新しい自分と望む未来を手に入れる教室▶
+                新宿教室 〒980-6027　宮城県仙台市青葉区中央4-6-1　SS30 27FTel　 022-224-8903　学生と共に歩み、共に夢を叶える教室▶仙台教室
+                〒170-0013　東京都豊島区東池袋 1-13-6 イケブクロ・ロクマルビル５FTel 　03-5956-3189　合格する皆さんの成長をサポートします！▶
+                池袋教室 渋谷教室リメディアル・低学年教室オンライン教室10教室案内少しでもみなさんの近くに。薬ゼミは全国の薬学生を応援します！
+                全国19教室各教室の詳細情報・アクセスはHPにてご確認下さい。http://www.yakuzemi.ac.jp/classroom-maps/
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#10">../index.html#10</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=10'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

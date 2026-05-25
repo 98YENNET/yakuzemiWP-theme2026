@@ -1,0 +1,39 @@
+/* --- source : /mnt/landiskgx/disks/no1/share/web/c/yak/yakuzemi/simulator/css/compiled/../../scss/a.-767.scss --- */
+.simulatorSelect {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.simulatorSelect > div {
+    width: 100%;
+    padding: 1em;
+}
+
+.simulatorSelect ul {
+    padding: 1em;
+}
+
+.simulators .course .conditions {
+    padding: 1em 0.5em;
+}
+
+.simulators .course .conditions .step table {
+    width: 94%;
+    margin-left: 3%;
+}
+
+.simulators .course .conditions .step ul {
+    width: 94%;
+    margin-left: 3%;
+}
+
+.simulators .course .conditions .step .stepCacheback ul {
+    width: 94%;
+    margin-left: 3%;
+}
+
+.simulators .linkWrap .submit {
+    width: 80%;
+}

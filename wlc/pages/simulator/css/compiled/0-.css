@@ -1,0 +1,309 @@
+/* --- source : /mnt/landiskgx/disks/no1/share/web/c/yak/yakuzemi/simulator/css/compiled/../../scss/a.0-.scss --- */
+#simulator {
+    padding-top: 0em;
+}
+
+.simulatorSelect {
+    background-color: #f2f2f2;
+    display: flex;
+    margin: 0 0 1em 0;
+}
+
+.simulatorSelect > div {
+    width: 40%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simulatorSelect ul {
+    padding: 1em 2em;
+}
+
+.simulatorSelect ul li {
+    border-left: #999 5px solid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    padding-left: 0.7em;
+}
+
+.simulators {
+    font-family: YakuHanJPs, 'Noto Sans JP', -apple-system, BlinkMacSystemFont, YuGothic, Yu Gothic, ヒラギノ角ゴ Pro W3, メイリオ, Meiryo, sans-serif !important;
+    font-weight: 400;
+}
+
+.simulators label {
+    cursor: pointer;
+}
+
+.simulators .course .courseHead {
+    background-color: #f8e461;
+    color: #000;
+    font-size: 180%;
+    text-align: center;
+    font-weight: 900;
+    padding: 1em 0;
+}
+
+.simulators .course table.result {
+    border-top: #666 1px solid;
+    border-left: #666 1px solid;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.simulators .course table.result td, .simulators .course table.result th {
+    border-bottom: #666 1px solid;
+    border-right: #666 1px solid;
+    padding: 0.3em 0.2em;
+    background-color: #fff;
+}
+
+.simulators .course table.result th {
+    background-color: #c9eaf9;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.simulators .course table.result td {
+    vertical-align: middle;
+    text-align: right;
+    min-width: 100px;
+}
+
+.simulators .course table.result td .small {
+    text-align: left;
+    display: block;
+    font-size: 70%;
+    line-height: 1.2em;
+    padding-top: 0.5em;
+}
+
+.simulators .course table.result .waribiki th, .simulators .course table.result .waribiki td {
+    color: #c00;
+}
+
+.simulators .course table.result .shiharai th {
+    background-color: #3fa9f5;
+    color: #fff;
+}
+
+.simulators .course table.result .shiharai td {
+    background-color: #eee;
+    font-weight: 700;
+}
+
+.simulators .course table.result .cacheBack td {
+    text-align: left;
+    background-color: #000;
+}
+
+.simulators .course .cacheBack, .simulators .course .final {
+    width: 90%;
+    margin: 1em auto;
+    border: #333 1px solid;
+}
+
+.simulators .course .cacheBack .heading, .simulators .course .final .heading {
+    padding: 0.5em 0;
+    text-align: center;
+    background-color: #c9eaf9;
+    color: #333;
+    border-bottom: #333 1px solid;
+}
+
+.simulators .course .cacheBack .result, .simulators .course .final .result {
+    padding: 0.5em 0;
+    background-color: #fff;
+    text-align: center;
+    font-size: 100%;
+    color: #000;
+    font-weight: 400;
+}
+
+.simulators .course .final .heading {
+    background-color: #c00;
+    color: #fff;
+    font-weight: 900;
+}
+
+.simulators .course .final .result {
+    background-color: #fae4e4;
+    color: #c00;
+    font-weight: 900;
+    font-size: 140%;
+}
+
+.simulators .course .conditions {
+    margin-top: 1em;
+    border: 6px #333 solid;
+    border-radius: 0.5em;
+    width: 100%;
+    min-height: 100px;
+    padding: 2em 3em;
+}
+
+.simulators .course .conditions .heading {
+    color: #333;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 900;
+    padding-top: 0.5em;
+}
+
+.simulators .course .conditions .step {
+    margin-top: 1em;
+    background-color: #feffee;
+    border: #fbe138 2px solid;
+    border-radius: 0.5em;
+    padding: 3em 0;
+}
+
+.simulators .course .conditions .step .stepTitle {
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #424242;
+    margin-bottom: 2em;
+}
+
+.simulators .course .conditions .step .stepTitleAddition {
+    text-align: center;
+    font-weight: 100;
+    color: #444;
+    font-size: 90%;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.simulators .course .conditions .step table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.simulators .course .conditions .step table th {
+    background-color: #fbe138;
+    color: #424242;
+    padding: 0 5em;
+}
+
+.simulators .course .conditions .step table th, .simulators .course .conditions .step table td {
+    border-bottom: 3px #feffee solid;
+}
+
+.simulators .course .conditions .step table ul {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.simulators .course .conditions .step table ul li {
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.simulators .course .conditions ul {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.simulators .course .conditions ul li {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    border-bottom: #eee 1px solid;
+}
+
+.simulators .course .conditions ul li br {
+    display: none;
+}
+
+.simulators .course .conditions ul li .small {
+    margin-left: 3em;
+    font-size: 80%;
+    display: block;
+    padding-bottom: 0.5em;
+    opacity: 0.9;
+}
+
+.simulators .course .conditions .stepCacheback ul {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.simulators .course .conditions .submit {
+    display: none;
+    text-align: center;
+    width: 50%;
+    margin: 2em auto;
+    color: #fff;
+    background-color: #c00;
+    padding: 1em 0;
+    border-radius: 2em;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.simulators .course span.ondemandText {
+    display: block;
+    font-size: 90%;
+    margin: 0.5em;
+    margin-left: 2em;
+}
+
+.simulators .course span.ondemandText br {
+    display: inline !important;
+}
+
+.simulators .linkWrap {
+    width: 100%;
+    text-align: center;
+}
+
+.simulators .linkWrap .submit {
+    text-align: center;
+    width: 50%;
+    margin: 2em auto;
+    color: #fff;
+    background-color: #c00;
+    padding: 1em 0;
+    border-radius: 2em;
+    font-size: 120%;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+
+.simulators .ondemandDetail {
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    max-height: 20em;
+}
+
+.simulators .ondemandDetail.height0 {
+    max-height: 0em;
+}
+
+.simulators .onlineCourseHeader {
+    font-weight: 700;
+}
+
+.simulators #simulatorOnline td {
+    padding-bottom: 1em;
+}
+
+.simulators #simulatorOnline td ul li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.simulators #simulatorOnline td div {
+    padding-left: 3em;
+    padding-top: 1em;
+    font-size: 80%;
+}

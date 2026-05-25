@@ -1,0 +1,108 @@
+div.wlcCmsExcelWrapper {
+    overflow: auto;
+}
+
+table.wlcCmsExcel {
+    margin-left: 0;
+    width: 100%;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+table.wlcCmsExcel tr {
+    display: table-row !important;
+}
+
+table.wlcCmsExcel td {
+    display: table-cell !important;
+}
+
+table.wlcCmsExcel td {
+    word-break: break-all;
+    border-top: 0px solid #99C;
+    border-left: 0px solid #99C;
+    border-right: 0px solid #99C;
+    border-bottom: 0px solid #99C;
+    border-spacing: 0;
+    padding: 0.5rem 0.4rem;
+    line-height: 1.2em;
+    letter-spacing: -0.1px;
+    font-size: 1rem;
+}
+
+table.wlcCmsExcel td._t {
+    border-top: 1px solid #CCC;
+}
+
+table.wlcCmsExcel td._l {
+    border-left: 1px solid #CCC;
+}
+
+table.wlcCmsExcel td._r {
+    border-right: 1px solid #CCC;
+}
+
+table.wlcCmsExcel td._b {
+    border-bottom: 1px solid #CCC;
+}
+
+table.wlcCmsExcel td._c_FF0000 {
+    color: #FF0000;
+}
+
+table.wlcCmsExcel td._bold {
+    font-weight: 700 !important;
+}
+
+table.wlcCmsExcel td._italic {
+    font-style: italic;
+}
+
+table.wlcCmsExcel td._bg_FFCC99 {
+    background-color: #e3dec3;
+}
+
+table.wlcCmsExcel td._bg_993300 {
+    background-color: #6e4d2f;
+    color: #d2c790;
+}
+
+table.wlcCmsExcel td._bg_99CC00 {
+    background-color: #d1d6af;
+}
+
+table.wlcCmsExcel td._h_center {
+    text-align: center;
+}
+
+table.wlcCmsExcel td._h_left {
+    text-align: left;
+}
+
+table.wlcCmsExcel td._h_right {
+    text-align: right;
+}
+
+table.wlcCmsExcel td._v_center {
+    vertical-align: middle;
+}
+
+table.wlcCmsExcel td._v_top {
+    vertical-align: top;
+}
+
+table.wlcCmsExcel td._v_bottom {
+    vertical-align: bottom;
+}
+
+table td._bg_CFCFCF {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+table.wlcCmsExcel td._rotation_v {
+    /*
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    */
+}

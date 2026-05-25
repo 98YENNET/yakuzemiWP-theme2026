@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML5 Webook</title>
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body id="skin" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<div id="thumbnail-and-pager">
+    <div id="flipper-app" bookpath="../" forcedstartpage="4">
+        <div id="flipper-component">
+            <component v-bind:is="view" v-ref:view></component>
+        </div>
+    </div>
+    <div id="pager">
+        <img v-on:click="flipL" v-bind:src="leftImageSource" class="pager-left">
+        <img v-on:click="flipR" v-bind:src="rightImageSource" class="pager-right">
+    </div>
+</div>
+
+<div id="box_main">
+    <div id="box_text">
+        <h1>
+            <div id="bookTitle">
+                HTML5 Webook
+            </div>
+            4/24
+        </h1>
+
+        <div>
+            <p id="searchText" v-el:search>
+                4コース案内多彩なコースで、国家試験合格を目指す全ての方を全力サポート！5月・6月/9月コース（金沢4月・お茶の水8月コース）薬ゼミならではの豊富なカリキュラムで国家試験合格に必要な力を身につけます。青本講座演習講座直前講座薬剤師国家試験青本＋オリジナルプリント＋既出問題既出問題＋応用問題等直前予想問題
+                各種テスト各種テスト各種テスト▶▶2019年度　コースカリキュラム 【使用教材】【料金表】
+                全日制5月コース　5月8日開講全日制金沢4月コース　4月19日開講全日制6月コース6月3日開講全日制お茶の水8月コース8月1日開講全日制9月コース9月2日開講※各教室の実施コースは異なります。詳細はHPでご確認下さい。青本を使用し、国家試験合格に必要な基本的な内容の理解及び定着を目指すオリジナル問題集（既出問題だけでなく薬ゼミの過去模試から抜粋した問題等）で演習し、知識の確認及び応用力を身に付ける国試の“ヤマ”を盛り込んだ予想問題プリントで総復習する→青本講座の特徴→演習講座の特徴→直前講座の特徴全日制4月・5月・6月コース全日制8月・9月コース基礎知識の整理および効率的な自己学習のノウハウを身に付けていきます。問題解決能力を磨き、豊富な演習で必須・理論・実践問題全てに対応できる力を育みます。薬ゼミの歴史に裏付けられた、唯一無二のコースです。豊富な問題演習とともに必須・理論・実践問題対策まで幅広く、確実に仕上げていきます。限られた期間の中でも効率的に実力を伸ばすことができる、薬ゼミメソッドが力を発揮します。現役生向けコース日曜講習会、夏期講習会、秋期講習会、冬期講習会、直前講習会、短期コース、オンライン教室など、大学在学中の学生も通え、利用できる講座を各種ご用意します。
+                ※HPに随時掲載※上記料金に参考書「青本」代は含まれておりません。　※各種割引制度がございます。　※コースのお申込はHPからお願い致します。※上記内容に変更が生じる場合もございますので詳細はHPにてご確認下さい。　　　
+                コース名 期間 入学金 授業料 合　計全日制 金沢４月コース 4月19日～ 50,000円 1,100,000円 1,150,000円全日制
+                5月コース 5月 8日～ 50,000円 1,100,000円 1,150,000円全日制6月コース 6月 3日～ 50,000円 1,000,000円
+                1,050,000円全日制 お茶の水8月コース 8月 1日～ 50,000円 950,000円 1,000,000円全日制 9月コース 9月　2日～
+                50,000円 900,000円 950,000円
+            </p>
+        </div>
+
+        <p class="moto">
+            元のページ&nbsp;
+            <a href="../index.html#4">../index.html#4</a>
+        </p>
+    </div>
+    <div id="box_book">
+        <p class="textr">
+            <a href='../index.html#page=4'>このブックを見る</a><br/>
+        </p>
+
+        <div id="content" align="center">
+
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../html5/js/flipper.js?c=201929281002457426"></script>
+<script type="text/javascript" src="skin.js"></script>
+</body>
+</html>

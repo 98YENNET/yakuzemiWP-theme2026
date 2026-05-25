@@ -1,0 +1,101 @@
+ul.supporters2019 li {
+    line-height: 1em;
+    padding: 0.5em 2em;
+}
+
+ul.supporters2019 li.aohon {
+    background-image: url("pages/supporters2019/aohon.png");
+    background-size: 1.6em;
+    background-position: left: center;
+    background-repeat: no-repeat;
+}
+
+
+ul.supporters2020 li {
+    line-height: 1em;
+    padding: 0.5em 1em 0.5em 0em;
+    background-size: 6em;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-bottom: 0.3em;
+}
+
+ul.supporters2020 li.m {
+    background-image: url("pages/supporters2023/m.png");
+}
+
+ul.supporters2020 li.hm {
+    background-image: url("pages/supporters2023/hm.png");
+}
+
+ul.supporters2020 li.hmu {
+    background-image: url("pages/supporters2023/hmu.png");
+}
+
+ul.supporters2020 li.h {
+    background-image: url("pages/supporters2023/h.png");
+}
+
+ul.supporters2020 li.u {
+    background-image: url("pages/supporters2023/u.png");
+}
+
+ul.supporters2020 li.mu {
+    background-image: url("pages/supporters2023/mu.png");
+}
+
+ul.supporters2020 li.hu {
+    background-image: url("pages/supporters2023/hu.png");
+}
+
+
+ul.supporters2020 li.g {
+    background-image: url("pages/supporters2023/g.png");
+}
+
+ul.supporters2020 li.mg {
+    background-image: url("pages/supporters2023/mg.png");
+}
+
+ul.supporters2020 li.hmg {
+    background-image: url("pages/supporters2023/hmg.png");
+}
+
+ul.supporters2020 li.hmug {
+    background-image: url("pages/supporters2023/hmug.png");
+}
+
+ul.supporters2020 li.hg {
+    background-image: url("pages/supporters2023/hg.png");
+}
+
+ul.supporters2020 li.ug {
+    background-image: url("pages/supporters2023/ug.png");
+}
+
+ul.supporters2020 li.mug {
+    background-image: url("pages/supporters2023/mug.png");
+}
+
+ul.supporters2020 li.hug {
+    background-image: url("pages/supporters2023/hug.png");
+}
+
+ul.lectureTargetTags li {
+    display: inline-block;
+    padding-bottom: 1em;
+    margin-top: -1em;
+}
+
+ul.lectureTargetTags li a {
+    display: inline-block;
+    background-color: #00438e;
+    line-height: 1em;
+    padding: 0.3em 0em 0.1em;
+    width: 8em;
+    border-radius: 0.3em;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+    color: #fff;
+    text-align: center;
+}
