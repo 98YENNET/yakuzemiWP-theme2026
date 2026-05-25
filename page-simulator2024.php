@@ -485,7 +485,7 @@
                     </div>
 
                     <div class="linkWrap">
-                        <button class="submit" onclick="location.href='https://student.yakuzemi.ac.jp/'">
+                        <button class="submit" onclick="location.href='https://www.mypage.yakuzemi.ac.jp/login/'">
                             お申し込みはこちらから
                         </button>
                     </div>

@@ -67,7 +67,7 @@
                             <p><a href="<?php the_field('申し込みURL'); ?>" class="button"
                                   target="_blank">講習会のお申し込みはこちら</a></p>
                         <?php else : ?>
-                            <p><a href="https://student.yakuzemi.ac.jp/" class="button"
+                            <p><a href="https://www.mypage.yakuzemi.ac.jp/login/" class="button"
                                   target="_blank">講習会のお申し込みはこちら</a></p>
                         <?php endif; ?>
                         <p><a href="https://www.yakuzemi.ac.jp/cancellpolicy/" target="_blank">講習会キャンセルポリシー・Zoom受講時の注意事項はこちら</a>

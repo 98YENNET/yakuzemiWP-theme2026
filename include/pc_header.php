@@ -21,7 +21,7 @@
         <div class="contact-box">
             <ul>
                 <li><a href="<?php echo esc_url(home_url('/')); ?>"><i class="fas fa-home"></i>TOP</a></li>
-                <li><a href="https://student.yakuzemi.ac.jp/" target="_blank"><i class="fas fa-book"></i>受講申込み（マイページ）</a>
+                <li><a href="https://www.mypage.yakuzemi.ac.jp/login/" target="_blank"><i class="fas fa-book"></i>受講申込み（マイページ）</a>
                 </li>
                 <li><a href="https://yakuzemi.study.jp/rpv/" target="_blank"><i class="fas fa-book"></i>オンライン教室ログイン</a>
                 </li>

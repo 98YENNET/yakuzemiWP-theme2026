@@ -1,7 +1,7 @@
 <header>
     <div class="contact-box">
         <ul>
-            <li><a href="https://student.yakuzemi.ac.jp/" target="_blank">
+            <li><a href="https://www.mypage.yakuzemi.ac.jp/login/" target="_blank">
                     <svg class="icon icon-book">
                         <use xlink:href="#icon-book"/>
                     </svg>
