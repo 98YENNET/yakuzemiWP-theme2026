@@ -56,59 +56,7 @@
                 <!-- 教室で探す -->
                 <ul class="menu__second-level">
                     <li><a href="<?php echo esc_url(home_url('/')); ?>exams">模擬試験</a></li>
-                    <li>
-                        <a href="<?php echo esc_url(home_url('/')); ?>#" class="init-right">教室で探す</a>
-                        <ul class="menu__third-level">
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_sapporo">札幌教室（<?php $cat = get_category_by_slug('seminar_sapporo');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_sendai">仙台教室（<?php $cat = get_category_by_slug('seminar_sendai');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_tsudanuma">津田沼教室（<?php $cat = get_category_by_slug('seminar_tsudanuma');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_kawagoe">医学アカデミー川越校（<?php $cat = get_category_by_slug('seminar_kawagoe');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_ikebukuro">池袋教室（<?php $cat = get_category_by_slug('seminar_ikebukuro');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_shinjuku">新宿教室（<?php $cat = get_category_by_slug('seminar_shinjuku');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_ichigaya">市ヶ谷教室（<?php $cat = get_category_by_slug('seminar_ichigaya');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_yokohama">横浜教室（<?php $cat = get_category_by_slug('seminar_yokohama');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_nagoya">名古屋教室（<?php $cat = get_category_by_slug('seminar_nagoya');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_osaka">大阪教室（<?php $cat = get_category_by_slug('seminar_osaka');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_kobe">神戸教室（<?php $cat = get_category_by_slug('seminar_kobe');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_hiroshima">広島教室（<?php $cat = get_category_by_slug('seminar_hiroshima');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_fukuoka">福岡教室（<?php $cat = get_category_by_slug('seminar_fukuoka');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_live">ライブ配信教室（<?php $cat = get_category_by_slug('seminar_live');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_online">オンデマンド教室（<?php $cat = get_category_by_slug('seminar_online');
-                                    echo $cat->count; ?>）</a></li>
-                            <li>
-                                <a href="<?php echo esc_url(home_url('/')); ?>category/seminar_metaverse">メタバース教室（<?php $cat = get_category_by_slug('seminar_metaverse');
-                                    echo $cat->count; ?>）</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="https://capsule.yakuzemi.ac.jp/seminar" target="_blank">講習会情報(Capsule)</a></li>
                 </ul>
             </li>
 
