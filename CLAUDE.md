@@ -99,3 +99,80 @@ CLAUDE.md の規約参照）:
   しているので、アイコン関連は両方確認してから増減させてください。
 - `images/` にはファビコン・ホーム画面アイコンの一式 (apple-touch-icon, android-chrome, manifest.json) があり、
   `header.php:26-46` で個別 `<link>` 出力されています。
+
+
+
+## 2026年以降開発
+- 2026年以降、新たに開発する場合は、assetsディレクトリでscss,typescriptで開発を行う。
+
+### css jsビルド
+
+css・js のソースを更新した場合は、以下の手順でビルドを実行する。
+ビルドツールディレクトリ: `C:\Users\admin\Documents\Projects\K.開発\npm\dev\v2025002`
+
+
+#### JS ビルド（`npm run build`）
+- **ビルド用ファイル生成コマンド**を実行する
+- **ビルドコマンド**を実行する
+- ビルド後のファイル `assets/js/compiled/main.js`
+
+##### assets/npm/js/src
+
+###### ビルド用ファイル生成コマンド
+```
+& "C:/laragon/bin/php/php-7.4.33-Win32-vc15-x64/php.exe" -f "C:/Users/admin/Documents/Projects/K.開発/npm/dev/v2025002/scripts/tswrite.inc.php" "C:\Users\admin\Documents\Projects\Y.薬ゼミ\wp2026\yakuzemi\yz\wp-content\themes\yakuzemi\assets/npm/js/config.php"
+```
+###### ビルドコマンド
+```
+# ビルド用ファイル生成コマンド後に実行
+cd C:\Users\admin\Documents\Projects\K.開発\npm\dev\v2025002
+npm run build
+```
+
+
+
+
+
+#### CSS ビルド（`npm run compile:sass`）
+- **ビルド用ファイル生成コマンド**を実行する
+- **ビルドコマンド**を実行する
+- - ビルド後のファイル `assets/css/compiled/style.css`
+
+##### assets/npm/css/src
+
+###### ビルド用ファイル生成コマンド
+```
+& "C:\laragon\bin\php\php-7.4.33-Win32-vc15-x64\php.exe" -f "C:/Users/admin/Documents/Projects/K.開発/npm/dev/v2025002/scripts/dartrewrite.inc.php" "C:\Users\admin\Documents\Projects\Y.薬ゼミ\wp2026\yakuzemi\yz\wp-content\themes\yakuzemi\assets/npm/css/config.php"
+```
+###### ビルドコマンド
+```
+# ビルド用ファイル生成コマンド後に実行
+cd C:\Users\admin\Documents\Projects\K.開発\npm\dev\v2025002
+`npm run compile:sass`
+```
+
+
+
+## GIT
+
+Claude Codeでの変更を必ずgitにcommitする。
+
+### 注意点
+
+- コミットするブランチは、現在のブランチ
+- 変更前に未コミットの変更がある場合は、適切なメッセージとをつけてコミットする
+- プログラム生成作業完了後、変更内容をコミットする
+
+
+###コミットメッセージ
+- コミットメッセージは日本語でつける
+- コミットメッセージには可能であれば下記プリフィックスをつける
+
+| prefix    | 用途 | 例 |
+|-----------|---|---|
+| feat:     | 新機能 | feat: 栽培記録の写真アップロード機能 |
+| fix:      | バグ修正 | fix: 日付選択で翌月が表示されない問題 |
+| refactor: | リファクタリング | refactor: APIクライアントを共通化 |
+| docs:     | ドキュメント | docs: READMEにセットアップ手順を追加 |
+| chore:    | 雑務 | chore: パッケージバージョン更新 | 
+
