@@ -1,0 +1,7 @@
+@use "../forward" as *;
+
+@mixin css {
+  * {
+    box-sizing: border-box;
+  }
+}

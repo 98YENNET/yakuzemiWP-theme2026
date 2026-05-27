@@ -1,0 +1,72 @@
+@charset "UTF-8";
+//
+// variable
+// 共通のSCSS変数を定義
+// --------------------------------------------------
+
+$font-serif: YakuHanJPs, "baskerville-urw", "fot-tsukuaoldmin-pr6n", serif;
+$font-sans: YakuHanJPs, "futura-pt", 'Noto Sans JP', sans-serif;
+$font-jp: YakuHanJPs, 'Noto Sans JP', sans-serif;
+$font-min: YakuHanJPs, "fot-tsukuaoldmin-pr6n", serif;
+
+$font-noto: "メイリオ", meiryo, sans-serif !default;
+$font-default: $font-noto;
+$font-default-size: 1.5rem !default;
+$font-default-size-sp: 15px !default;
+
+$transition-duration: 250ms !default;
+
+// component z-index
+// -------------------------
+$z-index-base: 100 !default;
+
+$header-z-index: $z-index-base + 3;
+$menu-z-index: $z-index-base + 2;
+$menu-overlay-z-index: $z-index-base + 1;
+$hover-button-z-index: $z-index-base - 2;
+$sp-sidemenu-z-index: $header-z-index + 2;
+$sp-sidemenu-overlay-z-index: $header-z-index + 1;
+$modal-z-index: $z-index-base + 30;
+$modal-closebutton-z-index: $z-index-base + 31;
+$alert-z-index: $z-index-base + 10;
+
+// responsive size
+// -------------------------
+$sp-max-width: 767px !default;
+$tablet-max-width: 1024px !default;
+$content-max-width: 1300px !default;
+
+$sidebar-width: 300px;
+
+$header-height: 64px;
+$sp-header-height: 50px;
+
+$footer-height: 100px;
+$sp-footer-height: 50px;
+
+// space
+// -------------------------
+$base-space-num: 4 !default;
+
+// color
+// -------------------------
+$color-default: #000000 !default;
+$color: #000000;
+$color-deep: #000000;
+$color-secondary: #d6e7f2;
+
+
+$color-black: #000000;
+$color-white: #fff;
+$color-pink: #E9B2B9;
+$color-pink2: #EDD9E2;
+$color-brown: #331419;
+$color-blue: #009FC3;
+$color-blue2: #cbebf2;
+$color-pale: #998a8c;
+// text
+// -------------------------
+$bold: 700;
+$medium: 500;
+$regular: 400;
+

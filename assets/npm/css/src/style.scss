@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@use "./project/yakuzemi.0-.scss" as projectyakuzemi0-scss;
+@media screen   and (min-width: 0px) {
+	@include projectyakuzemi0-scss.css;
+}
+
