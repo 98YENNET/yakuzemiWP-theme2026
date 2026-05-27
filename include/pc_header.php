@@ -1,4 +1,4 @@
-<header>
+<header class="hideSP">
 
     <div class="header-wrapper">
 
@@ -35,7 +35,7 @@
 
 </header>
 
-<div class="nav-bg">
+<div class="nav-bg hideSP">
     <nav>
         <ul class="menu">
             <li class="menu__multi">

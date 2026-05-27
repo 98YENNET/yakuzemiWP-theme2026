@@ -19,6 +19,12 @@ Version: 2016.6
     }
 }
 
+@media (max-width: 767px) {
+    .page-classroom .right-contents {
+        display: none;
+    }
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @-ms-viewport {

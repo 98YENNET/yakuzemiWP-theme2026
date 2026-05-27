@@ -1,4 +1,4 @@
-<header>
+<header class="hidePC">
     <div class="contact-box">
         <ul>
             <li><a href="https://www.mypage.yakuzemi.ac.jp/login/" target="_blank">

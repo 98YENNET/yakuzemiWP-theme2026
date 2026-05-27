@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="page-contents">
+    <div class="page-contents page-classroom">
 
         <div class="left-contents">
             <?php get_template_part('include/breadcrumbs'); ?>
@@ -82,17 +82,32 @@
                     </section>
 
                     <section class="sns-box clearfix mb30">
-                        <ul>
+                        <ul class="hideSP">
                             <?php if (get_field('line_url')): ?>
                                 <li class="mr10"><a
                                             href="https://liff.line.me/1656872021-gB4GGQbK/b8fd2d84af6c4729bcd0743e7e4565e0"
                                             target="_blank" class="line_banner">LINE公式アカウント</a></li>
                             <?php endif; ?>
-                            <?php if (is_mobile()) : ?>
+                            <?php if (get_field('facebook')): ?>
+                                <li class="mr10"><a href="<?php the_field('facebook'); ?>" class="fb_banner"
+                                                    target="_blank"><i class="fa fa-facebook wht"
+                                                                       aria-hidden="true"></i></a></li>
+                            <?php endif; ?>
+                            <?php if (get_field('twitter')): ?>
+                                <li><a href="<?php the_field('twitter'); ?>" class="tw_banner" target="_blank"><i
+                                                class="fa fa-twitter wht" aria-hidden="true"></i></a></li>
+                            <?php endif; ?>
                         </ul>
 
-                        <ul>
+                        <ul class="hidePC">
+                            <?php if (get_field('line_url')): ?>
+                                <li class="mr10"><a
+                                            href="https://liff.line.me/1656872021-gB4GGQbK/b8fd2d84af6c4729bcd0743e7e4565e0"
+                                            target="_blank" class="line_banner">LINE公式アカウント</a></li>
                             <?php endif; ?>
+                        </ul>
+
+                        <ul class="hidePC">
                             <?php if (get_field('facebook')): ?>
                                 <li class="mr10"><a href="<?php the_field('facebook'); ?>" class="fb_banner"
                                                     target="_blank"><i class="fa fa-facebook wht"
@@ -115,10 +130,7 @@
 
         </div><!-- left-contents -->
 
-        <?php if (is_mobile()): ?>
-        <?php else: ?>
-            <?php get_template_part('include/side_classroom'); ?>
-        <?php endif; ?>
+        <?php get_template_part('include/side_classroom'); ?>
 
     </div><!-- page-contents -->
 

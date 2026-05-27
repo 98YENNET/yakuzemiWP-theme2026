@@ -1,8 +1,5 @@
-<?php if (is_mobile()): ?>
-    <?php get_template_part('include/sns'); ?>
-<?php else: ?>
-    <?php get_template_part('include/footer_sitemap'); ?>
-<?php endif; ?>
+<div class="hidePC"><?php get_template_part('include/sns'); ?></div>
+<div class="hideSP"><?php get_template_part('include/footer_sitemap'); ?></div>
 
 <footer>
     <div class="footer-banner clearfix mb20">
@@ -66,13 +63,9 @@
     </section>
 </footer>
 
-<?php if (is_mobile()) : ?>
-    <?php get_template_part('include/mb_footer_menu'); ?>
+<div class="hidePC"><?php get_template_part('include/mb_footer_menu'); ?></div>
     </div><!-- sb-site -->
     <?php get_template_part('include/mobile_menu'); ?>
-<?php else : ?>
-    </div><!-- sb-site -->
-<?php endif; ?>
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/scroll.js"></script>
@@ -85,7 +78,6 @@
         });
     </script>
 <?php endif; ?>
-<?php if (is_mobile()) : ?>
     <script src="<?php echo get_template_directory_uri(); ?>/js/slidebars.min.js"></script>
     <script>
         (function ($) {
@@ -141,7 +133,6 @@
             $('#modal-content04').css('backgroundColor', 'rgba(0,0,0,0.8)');
         });
     </script>
-<?php endif; ?>
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

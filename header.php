@@ -25,12 +25,10 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?25031501">
-    <?php if (is_mobile()) : ?>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slidebars.css"/>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/animate.css"/>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/slide-menu.js"></script>
-    <?php endif; ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?26052801">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slidebars.css"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/animate.css"/>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/slide-menu.js"></script>
     <link rel="apple-touch-icon" sizes="57x57"
           href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"
@@ -73,9 +71,9 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wlc/wlc.common.css"/>
     <link href="<?php echo get_template_directory_uri(); ?>/wlc/wlc.pc.css" rel="stylesheet" type="text/css"
-          media="only screen and (min-width: 641px)"/>
+          media="only screen and (min-width: 768px)"/>
     <link href="<?php echo get_template_directory_uri(); ?>/wlc/wlc.sp.css" rel="stylesheet" type="text/css"
-          media="only screen and (max-width: 640px)"/>
+          media="only screen and (max-width: 767px)"/>
     <script src="<?php echo get_template_directory_uri(); ?>/wlc/wlc.js"></script>
 
 
@@ -106,8 +104,5 @@
 
 <div id="sb-site">
 
-    <?php if (is_mobile()) : ?>
-        <?php get_template_part('include/mobile_header'); ?>
-    <?php else: ?>
+    <?php get_template_part('include/mobile_header'); ?>
     <?php get_template_part('include/pc_header'); ?>
-<?php endif; ?>

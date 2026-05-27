@@ -63,13 +63,9 @@
 		<div class="yakuzemiplus-box">
 			<h3><?php the_title(); ?><br><?php the_field('発行年'); ?> <?php the_field('発行時期'); ?></h3>
 			<h4><a href="<?php the_field('目次pdf'); ?>">掲載内容 目次</a></h4>
-			<?php if (is_mobile()) :?>
+			<p class="hideSP"><?php the_field('補足事項'); ?></p>
 		</div>
-			<p class="clear"><?php the_field('補足事項'); ?></p>
-			<?php else:?>
-			<p><?php the_field('補足事項'); ?></p>
-		</div>
-			<?php endif; ?>
+			<p class="clear hidePC"><?php the_field('補足事項'); ?></p>
 		</li>
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 		</ul>
@@ -96,13 +92,9 @@
 		<div class="yakuzemiplus-box">
 			<h3><?php the_title(); ?><br><?php the_field('発行年'); ?> <?php the_field('発行時期'); ?></h3>
 			<h4><a href="<?php the_field('目次pdf'); ?>">掲載内容 目次</a></h4>
-			<?php if (is_mobile()) :?>
+			<p class="hideSP"><?php the_field('補足事項'); ?></p>
 		</div>
-			<p class="clear"><?php the_field('補足事項'); ?></p>
-			<?php else:?>
-			<p><?php the_field('補足事項'); ?></p>
-		</div>
-			<?php endif; ?>
+			<p class="clear hidePC"><?php the_field('補足事項'); ?></p>
 		</li>
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 		</ul>
