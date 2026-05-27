@@ -1,4 +1,7 @@
 <?php
+// 管理バー（wpadminbar）を非表示（後で戻す場合はこの2行を削除）
+add_filter('show_admin_bar', '__return_false');
+
 // アイキャッチ機能を有効にする
 add_theme_support('post-thumbnails');
 // カスタムポスト「お知らせ」のアイキャッチ機能を有効にする
