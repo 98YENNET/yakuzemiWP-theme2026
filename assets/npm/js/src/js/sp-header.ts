@@ -52,8 +52,15 @@ export function initSpDrawer(): void {
 
   observer.observe(htmlEl, { attributes: true, attributeFilter: ['class'] });
 
-  // 暗幕クリックでドロワーを閉じる
+  // 暗幕タップ/クリックでドロワーを閉じる
+  // モバイルでは slidebars が touchend 後に click ハンドラを削除するため
+  // touchend では jQuery 経由で touchend をトリガーし直す
+  overlay.addEventListener('touchend', (e) => {
+    e.preventDefault(); // 後続の click イベントを抑制
+    const jq = (window as any).jQuery || (window as any).$;
+    if (jq) jq(menuBtn).trigger('touchend');
+  });
   overlay.addEventListener('click', () => {
-    menuBtn.click();
+    menuBtn.click(); // デスクトップ用フォールバック
   });
 }
