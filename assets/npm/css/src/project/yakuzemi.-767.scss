@@ -35,9 +35,16 @@ $_sp-header-height: 48px;
       top: 7px;
     }
 
+    // .logo > a のインライン余白（ベースライン空白）を除去
+    .logo a {
+      display: block;
+      line-height: 0;
+    }
+
     .logo-yakuzemi {
+      display: block;
       width: 140px;
-      height: auto;
+      height: 20px; // viewBox 260×37 → 140×(37/260)=19.9px
     }
 
     .site-title {

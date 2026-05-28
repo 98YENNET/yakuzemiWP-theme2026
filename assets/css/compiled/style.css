@@ -27,9 +27,14 @@
   body.aft26 .logo {
     top: 7px;
   }
+  body.aft26 .logo a {
+    display: block;
+    line-height: 0;
+  }
   body.aft26 .logo-yakuzemi {
+    display: block;
     width: 140px;
-    height: auto;
+    height: 20px;
   }
   body.aft26 .site-title {
     display: block;
