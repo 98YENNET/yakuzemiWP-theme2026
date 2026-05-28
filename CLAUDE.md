@@ -15,10 +15,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 編集の注意点
 - 変更はこのディレクトリにのみ行い、WP本体への変更は行わない
+- 変更しなければ、WP本体や、プラグインディレクトリのアクセスは可能
 
 ## 確認
 - 動作確認は、```http://yakuzemi.test/```
-で行います。
+で行う
 
 ## テンプレート解決の癖（年タグ付きファイルの扱い）
 
@@ -104,11 +105,16 @@ CLAUDE.md の規約参照）:
 
 ## 2026年以降開発
 - 2026年以降、新たに開発する場合は、assetsディレクトリでscss,typescriptで開発を行う。
+- body.aft26を追加して、cssは全てこの配下で効くようにして、既存のスタイル上書きする
+- cssはscssで作成する
+- cssは、./cssディレクトリ内のファイルの変更が必避けられない場合以外は、`assets/npm/css/scr/project`内で開発をする
+
 
 ### css jsビルド
 
 css・js のソースを更新した場合は、以下の手順でビルドを実行する。
-ビルドツールディレクトリ: `C:\Users\admin\Documents\Projects\K.開発\npm\dev\v2025002`
+ビルドツールディレクトリ: `C:\Users\admin\Documents\Projects\K.開発\npm\dev\v2025002`  
+`C:\Users\admin\Documents\Projects\K.開発\npm\dev\CLAUDE.md`を参照する
 
 
 #### JS ビルド（`npm run build`）

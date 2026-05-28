@@ -1,36 +1,76 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+/******/ 	var __webpack_modules__ = ([
+/* 0 */,
+/* 1 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-/***/ "../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/index.ts"
-/*!**************************************************************************************************!*\
-  !*** ../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/index.ts ***!
-  \**************************************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   initSpDrawer: function() { return /* binding */ initSpDrawer; },
+/* harmony export */   initSpHeader: function() { return /* binding */ initSpHeader; }
+/* harmony export */ });
+var HIDDEN_CLASS = 'is-header-hidden';
+function initSpHeader() {
+    var header = document.querySelector('body.aft26 header.hidePC');
+    if (!header)
+        return;
+    var lastScrollY = window.scrollY;
+    window.addEventListener('scroll', function () {
+        var currentScrollY = window.scrollY;
+        var scrollingDown = currentScrollY > lastScrollY;
+        var pastThreshold = currentScrollY > window.innerHeight * 0.5;
+        var menuOpen = document.documentElement.classList.contains('sb-active-right');
+        if (!menuOpen) {
+            if (pastThreshold && scrollingDown) {
+                header.classList.add(HIDDEN_CLASS);
+            }
+            else if (!scrollingDown) {
+                header.classList.remove(HIDDEN_CLASS);
+            }
+        }
+        lastScrollY = currentScrollY;
+    }, { passive: true });
+}
+function initSpDrawer() {
+    var htmlEl = document.documentElement;
+    var menuBtn = document.querySelector('.sb-toggle-right.mb-menu-button');
+    var header = document.querySelector('body.aft26 header.hidePC');
+    if (!menuBtn)
+        return;
+    // 暗幕オーバーレイを生成
+    var overlay = document.createElement('div');
+    overlay.className = 'sp-drawer-overlay';
+    document.body.appendChild(overlay);
+    // slidebars が <html> に付与するクラスを監視してUI同期
+    var observer = new MutationObserver(function () {
+        var isOpen = htmlEl.classList.contains('sb-active-right');
+        menuBtn.classList.toggle('is-menu-open', isOpen);
+        overlay.classList.toggle('is-active', isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+        // メニュー展開中はヘッダーを強制表示
+        if (isOpen && header) {
+            header.classList.remove(HIDDEN_CLASS);
+        }
+    });
+    observer.observe(htmlEl, { attributes: true, attributeFilter: ['class'] });
+    // 暗幕タップ/クリックでドロワーを閉じる
+    // モバイルでは slidebars が touchend 後に click ハンドラを削除するため
+    // touchend では jQuery 経由で touchend をトリガーし直す
+    overlay.addEventListener('touchend', function (e) {
+        e.preventDefault(); // 後続の click イベントを抑制
+        var jq = window.jQuery || window.$;
+        if (jq)
+            jq(menuBtn).trigger('touchend');
+    });
+    overlay.addEventListener('click', function () {
+        menuBtn.click(); // デスクトップ用フォールバック
+    });
+}
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_sp_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/sp-header */ \"../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/js/sp-header.ts\");\n\nwindow.onload = function () {\n    (0,_js_sp_header__WEBPACK_IMPORTED_MODULE_0__.initSpHeader)();\n    (0,_js_sp_header__WEBPACK_IMPORTED_MODULE_0__.initSpDrawer)();\n};\n\n\n//# sourceURL=webpack://assets/../../../../Y.%E8%96%AC%E3%82%BC%E3%83%9F/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/index.ts?\n}");
 
-/***/ },
-
-/***/ "../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/js/sp-header.ts"
-/*!*********************************************************************************************************!*\
-  !*** ../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/js/sp-header.ts ***!
-  \*********************************************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   initSpDrawer: function() { return /* binding */ initSpDrawer; },\n/* harmony export */   initSpHeader: function() { return /* binding */ initSpHeader; }\n/* harmony export */ });\nvar HIDDEN_CLASS = 'is-header-hidden';\nfunction initSpHeader() {\n    var header = document.querySelector('body.aft26 header.hidePC');\n    if (!header)\n        return;\n    var lastScrollY = window.scrollY;\n    window.addEventListener('scroll', function () {\n        var currentScrollY = window.scrollY;\n        var scrollingDown = currentScrollY > lastScrollY;\n        var pastThreshold = currentScrollY > window.innerHeight * 0.5;\n        var menuOpen = document.documentElement.classList.contains('sb-active-right');\n        if (!menuOpen) {\n            if (pastThreshold && scrollingDown) {\n                header.classList.add(HIDDEN_CLASS);\n            }\n            else if (!scrollingDown) {\n                header.classList.remove(HIDDEN_CLASS);\n            }\n        }\n        lastScrollY = currentScrollY;\n    }, { passive: true });\n}\nfunction initSpDrawer() {\n    var htmlEl = document.documentElement;\n    var menuBtn = document.querySelector('.sb-toggle-right.mb-menu-button');\n    var header = document.querySelector('body.aft26 header.hidePC');\n    if (!menuBtn)\n        return;\n    // 暗幕オーバーレイを生成\n    var overlay = document.createElement('div');\n    overlay.className = 'sp-drawer-overlay';\n    document.body.appendChild(overlay);\n    // slidebars が <html> に付与するクラスを監視してUI同期\n    var observer = new MutationObserver(function () {\n        var isOpen = htmlEl.classList.contains('sb-active-right');\n        menuBtn.classList.toggle('is-menu-open', isOpen);\n        overlay.classList.toggle('is-active', isOpen);\n        document.body.style.overflow = isOpen ? 'hidden' : '';\n        // メニュー展開中はヘッダーを強制表示\n        if (isOpen && header) {\n            header.classList.remove(HIDDEN_CLASS);\n        }\n    });\n    observer.observe(htmlEl, { attributes: true, attributeFilter: ['class'] });\n    // 暗幕タップ/クリックでドロワーを閉じる\n    // モバイルでは slidebars が touchend 後に click ハンドラを削除するため\n    // touchend では jQuery 経由で touchend をトリガーし直す\n    overlay.addEventListener('touchend', function (e) {\n        e.preventDefault(); // 後続の click イベントを抑制\n        var jq = window.jQuery || window.$;\n        if (jq)\n            jq(menuBtn).trigger('touchend');\n    });\n    overlay.addEventListener('click', function () {\n        menuBtn.click(); // デスクトップ用フォールバック\n    });\n}\n\n\n//# sourceURL=webpack://assets/../../../../Y.%E8%96%AC%E3%82%BC%E3%83%9F/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/js/sp-header.ts?\n}");
-
-/***/ }
-
-/******/ 	});
+/***/ })
+/******/ 	]);
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -50,12 +90,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		if (!(moduleId in __webpack_modules__)) {
-/******/ 			delete __webpack_module_cache__[moduleId];
-/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
-/******/ 			e.code = 'MODULE_NOT_FOUND';
-/******/ 			throw e;
-/******/ 		}
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
@@ -92,11 +126,17 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("../../../../Y.薬ゼミ/wp2026/yakuzemi/yz/wp-content/themes/yakuzemi/assets/npm/js/src/index.ts");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
+!function() {
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_sp_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+
+window.onload = function () {
+    (0,_js_sp_header__WEBPACK_IMPORTED_MODULE_0__.initSpHeader)();
+    (0,_js_sp_header__WEBPACK_IMPORTED_MODULE_0__.initSpDrawer)();
+};
+
+}();
 /******/ })()
 ;

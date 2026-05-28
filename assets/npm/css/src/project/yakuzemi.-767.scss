@@ -71,14 +71,14 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
         position: absolute;
         background: #111;
         transition: 0.3s ease-in-out;
-        width: 40%;
+        width: 80%;
         height: 1px;
-        left: 30%;
+        left: 10%;
         border-radius: 2px;
 
         &:first-child  { top: 26%; }
-        &:nth-child(2) { top: 38%; }
-        &:nth-child(3) { top: 51%; }
+        &:nth-child(2) { top: 47%; }
+        &:nth-child(3) { top: 71%; }
       }
 
       // 開放時: 3本線 → ✕
@@ -95,7 +95,16 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       }
     }
   }
-
+  .search-form {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    #searchsubmit{
+      background-color: #DDD;
+    }
+  }
   // ─── slidebars の #sb-site スライドを無効化 ───
   html.sb-active body.aft26 #sb-site {
     transform: none !important;

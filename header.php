@@ -25,6 +25,12 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanjp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&family=M+PLUS+1p:wght@500;700;800&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?26052801">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/compiled/style.css?<?php echo trim(file_get_contents(get_template_directory() . '/assets/css/compiled/hash.txt')); ?>"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slidebars.css"/>
@@ -66,9 +72,9 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <meta name="apple-mobile-web-app-title" content="薬ゼミ">
     <meta name="application-name" content="薬ゼミ">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#014a96">
     <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#014a96">
 
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wlc/wlc.common.css"/>

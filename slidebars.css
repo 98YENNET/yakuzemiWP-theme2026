@@ -33,7 +33,7 @@ html, body, #sb-site, .sb-site-container, .sb-slidebar {
 
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Stops horizontal scrolling. */
+    /*overflow-x: hidden;*/ /* Stops horizontal scrolling. */
 }
 
 html {
