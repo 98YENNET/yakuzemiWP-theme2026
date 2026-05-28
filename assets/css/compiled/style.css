@@ -47,28 +47,39 @@
     margin-top: 4px;
   }
   body.aft26 .mb-menu-button {
-    top: 14px;
+    top: 2px;
+    right: 4px;
+    width: 44px;
+    height: 44px;
     cursor: pointer;
   }
-  body.aft26 .mb-menu-button .mb-menu {
-    fill: #333;
+  body.aft26 .mb-menu-button span {
+    display: block;
+    position: absolute;
+    background: #111;
+    transition: 0.3s ease-in-out;
+    width: 40%;
+    height: 1px;
+    left: 30%;
+    border-radius: 2px;
   }
-  body.aft26 .mb-menu-button .mb-menu rect {
-    transition: transform 0.25s ease 0.1s, opacity 0.25s ease;
-    transform-box: fill-box;
-    transform-origin: center;
+  body.aft26 .mb-menu-button span:first-child {
+    top: 26%;
   }
-  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    transition: transform 0.25s ease, opacity 0.25s ease;
+  body.aft26 .mb-menu-button span:nth-child(2) {
+    top: 38%;
   }
-  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(2) {
-    opacity: 0;
-    transition: transform 0.25s ease, opacity 0.1s ease;
+  body.aft26 .mb-menu-button span:nth-child(3) {
+    top: 51%;
   }
-  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    transition: transform 0.25s ease, opacity 0.25s ease;
+  body.aft26 .mb-menu-button.is-menu-open span:first-child {
+    transform: rotate(45deg);
+    top: 38%;
+  }
+  body.aft26 .mb-menu-button.is-menu-open span:nth-child(2),
+  body.aft26 .mb-menu-button.is-menu-open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 38%;
   }
   html.sb-active body.aft26 #sb-site {
     transform: none !important;

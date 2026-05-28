@@ -24,11 +24,11 @@
             <h1 class="site-title"><?php bloginfo('description'); ?></h1>
         </div>
 
-        <div class="sb-toggle-right mb-menu-button"><a href="">
-                <svg class="mb-menu">
-                    <use xlink:href="#mb-menu"/>
-                </svg>
-            </a></div>
+        <div class="sb-toggle-right mb-menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div><!-- logo-wrapper -->
 
 </header>
