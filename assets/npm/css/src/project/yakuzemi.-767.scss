@@ -134,4 +134,16 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       display: block;
     }
   }
+
+  // ─── ドロワーメニュー アコーディオン アイコン回転 ───
+  body.aft26 .mb-side-menu .main_trigger {
+    > a .fa-angle-down {
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+
+    &.is-open > a .fa-angle-down {
+      transform: rotate(180deg);
+    }
+  }
 }

@@ -111,6 +111,13 @@
   body.aft26 .sp-drawer-overlay.is-active {
     display: block;
   }
+  body.aft26 .mb-side-menu .main_trigger > a .fa-angle-down {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  body.aft26 .mb-side-menu .main_trigger.is-open > a .fa-angle-down {
+    transform: rotate(180deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
