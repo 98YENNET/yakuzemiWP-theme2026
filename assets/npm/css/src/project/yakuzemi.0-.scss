@@ -1,7 +1,22 @@
 @use "../forward" as *;
 
 @mixin css {
+  // slidebars.css の html { height:100% } + overflow-x:hidden が
+  // overflow-y:auto を誘発して二重スクロールバーになるのを防ぐ
+  html {
+    height: auto;
+    min-height: 100%;
+  }
+
   * {
     box-sizing: border-box;
+    font-family: YakuHanJP,"Kosugi", sans-serif;
+    color: #333;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  body.aft26 {
+
   }
 }

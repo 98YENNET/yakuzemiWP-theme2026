@@ -1,9 +1,42 @@
 @media screen and (min-width: 0px) {
+  html {
+    height: auto;
+    min-height: 100%;
+  }
   * {
     box-sizing: border-box;
+    font-family: YakuHanJP, "Kosugi", sans-serif;
+    color: #333;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.02em;
   }
 }
 @media screen and (max-width: 767px) {
+  window, body {
+    font-size: 14px;
+  }
+  body.aft26 .page-title {
+    font-family: YakuHanJP, "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+  }
+  body.aft26 .sec-title {
+    font-family: YakuHanJP, "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+  }
+  body.aft26 .sec-subheading {
+    font-family: YakuHanJP, "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+    color: #555;
+  }
   body.aft26 {
     padding-top: 48px;
   }
@@ -58,19 +91,19 @@
     position: absolute;
     background: #111;
     transition: 0.3s ease-in-out;
-    width: 40%;
+    width: 80%;
     height: 1px;
-    left: 30%;
+    left: 10%;
     border-radius: 2px;
   }
   body.aft26 .mb-menu-button span:first-child {
     top: 26%;
   }
   body.aft26 .mb-menu-button span:nth-child(2) {
-    top: 38%;
+    top: 47%;
   }
   body.aft26 .mb-menu-button span:nth-child(3) {
-    top: 51%;
+    top: 71%;
   }
   body.aft26 .mb-menu-button.is-menu-open span:first-child {
     transform: rotate(45deg);
@@ -80,6 +113,16 @@
   body.aft26 .mb-menu-button.is-menu-open span:nth-child(3) {
     transform: rotate(-45deg);
     top: 38%;
+  }
+  .search-form {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .search-form #searchsubmit {
+    background-color: #DDD;
   }
   html.sb-active body.aft26 #sb-site {
     transform: none !important;
