@@ -1,6 +1,6 @@
 @use "../forward" as *;
 
-$_sp-header-height: 60px;
+$_sp-header-height: 48px;
 
 @mixin css {
   body.aft26 {
@@ -32,18 +32,23 @@ $_sp-header-height: 60px;
 
     // ロゴSVG + site-title（薬剤師国家試験予備校）を縦中央に配置
     .logo {
-      top: 8px;
+      top: 7px;
+    }
+
+    .logo-yakuzemi {
+      width: 140px;
+      height: auto;
     }
 
     .site-title {
       display: block;
-      font-size: 11px;
+      font-size: 9px;
       line-height: 1.2;
       margin-top: 2px;
     }
 
     .mb-menu-button {
-      top: 20px;
+      top: 14px;
     }
   }
 }
