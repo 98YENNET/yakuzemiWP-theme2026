@@ -1,10 +1,12 @@
 @use "../forward" as *;
 
+$_sp-header-height: 60px;
+
 @mixin css {
   body.aft26 {
     // SP固定ヘッダー: コンテンツがヘッダーに隠れないよう上部余白を確保
     #sb-site {
-      padding-top: $sp-header-height;
+      padding-top: $_sp-header-height;
     }
 
     header.hidePC {
@@ -12,7 +14,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: $sp-header-height;
+      height: $_sp-header-height;
       margin-bottom: 0;
       z-index: $header-z-index;
       background: #fff;
@@ -25,20 +27,23 @@
     }
 
     .logo-wrapper {
-      height: $sp-header-height;
+      height: $_sp-header-height;
     }
 
+    // ロゴSVG + site-title（薬剤師国家試験予備校）を縦中央に配置
     .logo {
-      top: 11px;
+      top: 8px;
     }
 
-    // サイトタイトルテキストはロゴSVGで代替するため非表示
     .site-title {
-      display: none;
+      display: block;
+      font-size: 11px;
+      line-height: 1.2;
+      margin-top: 2px;
     }
 
     .mb-menu-button {
-      top: 15px;
+      top: 20px;
     }
   }
 }
