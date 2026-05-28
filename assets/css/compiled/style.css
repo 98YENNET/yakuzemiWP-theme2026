@@ -3,5 +3,36 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 767px) {
+  body.aft26 #sb-site {
+    padding-top: 50px;
+  }
+  body.aft26 header.hidePC {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    z-index: 103;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  }
+  body.aft26 .contact-box {
+    display: none;
+  }
+  body.aft26 .logo-wrapper {
+    height: 50px;
+  }
+  body.aft26 .logo {
+    top: 11px;
+  }
+  body.aft26 .site-title {
+    display: none;
+  }
+  body.aft26 .mb-menu-button {
+    top: 15px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

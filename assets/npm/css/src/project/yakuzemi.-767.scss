@@ -1,0 +1,44 @@
+@use "../forward" as *;
+
+@mixin css {
+  body.aft26 {
+    // SP固定ヘッダー: コンテンツがヘッダーに隠れないよう上部余白を確保
+    #sb-site {
+      padding-top: $sp-header-height;
+    }
+
+    header.hidePC {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: $sp-header-height;
+      margin-bottom: 0;
+      z-index: $header-z-index;
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    }
+
+    // コンタクトボックスを非表示
+    .contact-box {
+      display: none;
+    }
+
+    .logo-wrapper {
+      height: $sp-header-height;
+    }
+
+    .logo {
+      top: 11px;
+    }
+
+    // サイトタイトルテキストはロゴSVGで代替するため非表示
+    .site-title {
+      display: none;
+    }
+
+    .mb-menu-button {
+      top: 15px;
+    }
+  }
+}

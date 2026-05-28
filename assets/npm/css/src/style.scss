@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @use "./project/yakuzemi.0-.scss" as projectyakuzemi0-scss;
+@use "./project/yakuzemi.-767.scss" as projectyakuzemi-767scss;
 @media screen   and (min-width: 0px) {
 	@include projectyakuzemi0-scss.css;
+}
+
+@media screen   and (max-width: 767px) {
+	@include projectyakuzemi-767scss.css;
 }
 

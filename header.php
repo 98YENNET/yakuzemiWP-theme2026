@@ -26,6 +26,7 @@
     <?php wp_head(); ?>
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?26052801">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/compiled/style.css?<?php echo trim(file_get_contents(get_template_directory() . '/assets/css/compiled/hash.txt')); ?>"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slidebars.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/animate.css"/>
     <script src="<?php echo get_template_directory_uri(); ?>/js/slide-menu.js"></script>
