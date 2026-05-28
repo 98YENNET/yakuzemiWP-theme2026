@@ -4,8 +4,7 @@ $_sp-header-height: 48px;
 
 @mixin css {
   body.aft26 {
-    // SP固定ヘッダー: #sb-siteがヘッダーの下から始まるよう上部余白を確保
-    // （header.hidePC は #sb-site の外に配置されているため body に padding を付与）
+    // SP固定ヘッダー: bodyに上部余白を確保
     padding-top: $_sp-header-height;
 
     header.hidePC {
@@ -16,7 +15,7 @@ $_sp-header-height: 48px;
       height: $_sp-header-height;
       margin-bottom: 0;
       z-index: $header-z-index;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.9);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
       transition: transform 0.3s ease;
 
@@ -60,6 +59,67 @@ $_sp-header-height: 48px;
 
     .mb-menu-button {
       top: 14px;
+    }
+
+    // ─── ドロワーメニュー（オーバーレイ型） ───
+
+    // slidebars が #sb-site に適用するスライドをキャンセル
+    // transform:none !important でインラインスタイルを上書き
+  }
+
+  html.sb-active body.aft26 #sb-site {
+    transform: none !important;
+  }
+
+  // ドロワー本体: 右端から固定オーバーレイ
+  // 幅85vw → 左端に元のコンテンツが約15%覗く
+  body.aft26 .mb-side-menu.sb-right {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 85vw;
+    height: 100vh;
+    margin: 0;
+    background: #fff;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: $sp-sidemenu-z-index;
+    overflow-y: auto;
+
+    &.sb-active {
+      transform: translateX(0);
+    }
+  }
+
+  // 暗幕オーバーレイ
+  body.aft26 .sp-drawer-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: $sp-sidemenu-overlay-z-index;
+
+    &.is-active {
+      display: block;
+    }
+  }
+
+  // ハンバーガー → ✕
+  body.aft26 .mb-menu-button.is-menu-open {
+    .mb-menu {
+      display: none;
+    }
+
+    a::after {
+      content: '✕';
+      display: block;
+      width: 20px;
+      height: 20px;
+      font-size: 18px;
+      line-height: 20px;
+      text-align: center;
+      color: #333;
     }
   }
 }
