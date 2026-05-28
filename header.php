@@ -91,7 +91,7 @@
     ?>
     <link rel="canonical" href="<?php echo $fullURL; ?>"/>
 </head>
-<body class="drawer drawer--right">
+<body class="drawer drawer--right aft26">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
