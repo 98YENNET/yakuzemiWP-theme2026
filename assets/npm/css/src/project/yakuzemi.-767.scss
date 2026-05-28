@@ -4,10 +4,9 @@ $_sp-header-height: 48px;
 
 @mixin css {
   body.aft26 {
-    // SP固定ヘッダー: コンテンツがヘッダーに隠れないよう上部余白を確保
-    #sb-site {
-      padding-top: $_sp-header-height;
-    }
+    // SP固定ヘッダー: #sb-siteがヘッダーの下から始まるよう上部余白を確保
+    // （header.hidePC は #sb-site の外に配置されているため body に padding を付与）
+    padding-top: $_sp-header-height;
 
     header.hidePC {
       position: fixed;

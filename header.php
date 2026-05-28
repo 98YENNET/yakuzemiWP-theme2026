@@ -104,7 +104,7 @@
 
 <?php get_template_part('include/svg'); ?>
 
+<?php get_template_part('include/mobile_header'); ?>
 <div id="sb-site">
 
-    <?php get_template_part('include/mobile_header'); ?>
     <?php get_template_part('include/pc_header'); ?>
