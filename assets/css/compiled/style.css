@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media screen and (min-width: 0px) {
   * {
     box-sizing: border-box;
@@ -15,7 +14,7 @@
     width: 100%;
     height: 48px;
     margin-bottom: 0;
-    z-index: 103;
+    z-index: 106;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
     transition: transform 0.3s ease;
@@ -49,6 +48,27 @@
   }
   body.aft26 .mb-menu-button {
     top: 14px;
+    cursor: pointer;
+  }
+  body.aft26 .mb-menu-button .mb-menu {
+    fill: #333;
+  }
+  body.aft26 .mb-menu-button .mb-menu rect {
+    transition: transform 0.25s ease 0.1s, opacity 0.25s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(2) {
+    opacity: 0;
+    transition: transform 0.25s ease, opacity 0.1s ease;
+  }
+  body.aft26 .mb-menu-button.is-menu-open .mb-menu rect:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    transition: transform 0.25s ease, opacity 0.25s ease;
   }
   html.sb-active body.aft26 #sb-site {
     transform: none !important;
@@ -56,10 +76,10 @@
   body.aft26 .mb-side-menu.sb-right {
     display: block !important;
     position: fixed;
-    top: 0;
+    top: 48px;
     right: 0;
     width: 85vw;
-    height: 100vh;
+    height: calc(100vh - 48px);
     margin: 0;
     background: #fff;
     transform: translateX(100%);
@@ -79,19 +99,6 @@
   }
   body.aft26 .sp-drawer-overlay.is-active {
     display: block;
-  }
-  body.aft26 .mb-menu-button.is-menu-open .mb-menu {
-    display: none;
-  }
-  body.aft26 .mb-menu-button.is-menu-open a::after {
-    content: "✕";
-    display: block;
-    width: 20px;
-    height: 20px;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
-    color: #333;
   }
 }
 

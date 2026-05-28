@@ -1,12 +1,14 @@
 @use "../forward" as *;
 
 $_sp-header-height: 48px;
+// ヘッダーをドロワー・オーバーレイより上に表示するため独自に定義
+$_header-z: $sp-sidemenu-z-index + 1; // 106
 
 @mixin css {
   body.aft26 {
-    // SP固定ヘッダー: bodyに上部余白を確保
     padding-top: $_sp-header-height;
 
+    // ─── 固定ヘッダー ───
     header.hidePC {
       position: fixed;
       top: 0;
@@ -14,7 +16,8 @@ $_sp-header-height: 48px;
       width: 100%;
       height: $_sp-header-height;
       margin-bottom: 0;
-      z-index: $header-z-index;
+      // ドロワー・暗幕より上に重ねる
+      z-index: $_header-z;
       background: rgba(255, 255, 255, 0.9);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
       transition: transform 0.3s ease;
@@ -24,7 +27,6 @@ $_sp-header-height: 48px;
       }
     }
 
-    // コンタクトボックスを非表示
     .contact-box {
       display: none;
     }
@@ -33,12 +35,10 @@ $_sp-header-height: 48px;
       height: $_sp-header-height;
     }
 
-    // ロゴSVG + site-title（薬剤師国家試験予備校）を縦中央に配置
     .logo {
       top: 7px;
     }
 
-    // .logo > a のインライン余白（ベースライン空白）を除去
     .logo a {
       display: block;
       line-height: 0;
@@ -47,7 +47,7 @@ $_sp-header-height: 48px;
     .logo-yakuzemi {
       display: block;
       width: 140px;
-      height: 20px; // viewBox 260×37 → 140×(37/260)=19.9px
+      height: 20px;
     }
 
     .site-title {
@@ -57,29 +57,59 @@ $_sp-header-height: 48px;
       margin-top: 4px;
     }
 
+    // ─── ハンバーガーボタン ───
     .mb-menu-button {
       top: 14px;
+      cursor: pointer;
+
+      .mb-menu {
+        fill: #333;
+
+        // SVG の rect を CSS transform でアニメーション
+        rect {
+          transition: transform 0.25s ease 0.1s, opacity 0.25s ease;
+          transform-box: fill-box;
+          transform-origin: center;
+        }
+      }
     }
 
-    // ─── ドロワーメニュー（オーバーレイ型） ───
-
-    // slidebars が #sb-site に適用するスライドをキャンセル
-    // transform:none !important でインラインスタイルを上書き
+    // 開放時: 3本線 → ✕
+    .mb-menu-button.is-menu-open {
+      .mb-menu {
+        // 上の線: 下に8px移動 + 45度回転
+        rect:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+          transition: transform 0.25s ease, opacity 0.25s ease;
+        }
+        // 中の線: 非表示
+        rect:nth-child(2) {
+          opacity: 0;
+          transition: transform 0.25s ease, opacity 0.1s ease;
+        }
+        // 下の線: 上に8px移動 + -45度回転
+        rect:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+          transition: transform 0.25s ease, opacity 0.25s ease;
+        }
+      }
+    }
   }
 
+  // ─── slidebars の #sb-site スライドを無効化 ───
   html.sb-active body.aft26 #sb-site {
     transform: none !important;
   }
 
-  // ドロワー本体: 右端から固定オーバーレイ
-  // 幅85vw → 左端に元のコンテンツが約15%覗く
+  // ─── ドロワー本体（右端オーバーレイ） ───
+  // top をヘッダー分下げてヘッダーと被らないようにする
   body.aft26 .mb-side-menu.sb-right {
     display: block !important;
     position: fixed;
-    top: 0;
+    top: $_sp-header-height;
     right: 0;
     width: 85vw;
-    height: 100vh;
+    height: calc(100vh - #{$_sp-header-height});
     margin: 0;
     background: #fff;
     transform: translateX(100%);
@@ -92,7 +122,7 @@ $_sp-header-height: 48px;
     }
   }
 
-  // 暗幕オーバーレイ
+  // ─── 暗幕オーバーレイ ───
   body.aft26 .sp-drawer-overlay {
     display: none;
     position: fixed;
@@ -102,24 +132,6 @@ $_sp-header-height: 48px;
 
     &.is-active {
       display: block;
-    }
-  }
-
-  // ハンバーガー → ✕
-  body.aft26 .mb-menu-button.is-menu-open {
-    .mb-menu {
-      display: none;
-    }
-
-    a::after {
-      content: '✕';
-      display: block;
-      width: 20px;
-      height: 20px;
-      font-size: 18px;
-      line-height: 20px;
-      text-align: center;
-      color: #333;
     }
   }
 }
