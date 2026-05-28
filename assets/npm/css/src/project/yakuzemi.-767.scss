@@ -19,6 +19,11 @@ $_sp-header-height: 48px;
       z-index: $header-z-index;
       background: #fff;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+      transition: transform 0.3s ease;
+
+      &.is-header-hidden {
+        transform: translateY(-100%);
+      }
     }
 
     // コンタクトボックスを非表示
@@ -49,9 +54,9 @@ $_sp-header-height: 48px;
 
     .site-title {
       display: block;
-      font-size: 9px;
+      font-size: 10px;
       line-height: 1.2;
-      margin-top: 2px;
+      margin-top: 4px;
     }
 
     .mb-menu-button {

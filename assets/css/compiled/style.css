@@ -17,6 +17,10 @@
     z-index: 103;
     background: #fff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+  }
+  body.aft26 header.hidePC.is-header-hidden {
+    transform: translateY(-100%);
   }
   body.aft26 .contact-box {
     display: none;
@@ -38,9 +42,9 @@
   }
   body.aft26 .site-title {
     display: block;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.2;
-    margin-top: 2px;
+    margin-top: 4px;
   }
   body.aft26 .mb-menu-button {
     top: 14px;

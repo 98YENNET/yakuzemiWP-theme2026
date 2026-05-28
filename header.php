@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slidebars.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/animate.css"/>
     <script src="<?php echo get_template_directory_uri(); ?>/js/slide-menu.js"></script>
+    <script defer src="<?php echo get_template_directory_uri(); ?>/assets/js/compiled/main.js?<?php echo trim(file_get_contents(get_template_directory() . '/assets/js/compiled/hash.txt')); ?>"></script>
     <link rel="apple-touch-icon" sizes="57x57"
           href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"
