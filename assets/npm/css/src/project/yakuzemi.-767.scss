@@ -163,6 +163,30 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
               padding: 14px 10px 14px 14px;
             }
           }
+
+          // ─── 第2階層: 背景 #DDDDDD ───
+          // ul.second_list（クラス無しの入れ子 ul も拾えるよう構造で指定）
+          > li > ul > li {
+            background: #dddddd;
+            > a {
+              color: #222;
+              // 下向きアイコンは背景に合わせて濃いめのブランドカラーに
+              .fa-angle-down {
+                color: #00438e;
+              }
+            }
+          }
+
+          // ─── 第3階層: 背景 #CCCCCC ───
+          > li > ul > li > ul > li {
+            background: #cccccc;
+            > a {
+              color: #1a1a1a;
+              .fa-angle-down {
+                color: #00438e;
+              }
+            }
+          }
         }
         ul.sns_button {
           display: flex;
