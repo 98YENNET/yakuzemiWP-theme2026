@@ -57,13 +57,60 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       margin-top: 4px;
     }
 
+    // ─── ヘッダー右端のアクション群（ハンバーガー / FAQ / MY PAGE） ───
+    .sp-header-actions {
+      position: absolute;
+      top: 50%;
+      right: 8px;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    // ─── FAQ / MY PAGE アイコン（正円＋下ラベル） ───
+    .sp-action-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      text-decoration: none;
+
+      &__circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #00438e;
+
+        svg {
+          width: 18px;
+          height: 18px;
+          fill: #fff;
+        }
+      }
+
+      &__label {
+        font-size: 9px;
+        line-height: 1;
+        font-weight: 700;
+        color: #00438e;
+        white-space: nowrap;
+      }
+    }
+
     // ─── ハンバーガーボタン（okuyorovillage.com div.toggle 準拠） ───
     .mb-menu-button {
-      // style.css の top:30px / width:20px / height:20px を上書き
-      top: 2px;
-      right: 4px;
-      width: 44px;
-      height: 44px;
+      // style.css の absolute / top:30px / width:20px / height:20px を上書き
+      // フレックス内に収めるため relative に戻す
+      position: relative;
+      top: 0;
+      right: 0;
+      flex: 0 0 auto;
+      width: 28px;
+      height: 28px;
       cursor: pointer;
 
       span {
