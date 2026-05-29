@@ -1,0 +1,9 @@
+@use "../forward" as *;
+
+@mixin css {
+  body.aft26 {
+    .contents-wrapper {
+      background-color: #efeee9;
+    }
+  }
+}

@@ -33,8 +33,17 @@
         }
       }
     }
-    .contents-wrapper {
-      background-color: #efeee9;
+    .menu {
+      > li {
+        &:hover {
+          background-color: #00b2d4;
+          opacity: 1;
+        }
+        > a.current,
+        > a:hover {
+          background-color: #00b2d4;
+        }
+      }
     }
     .sitemap_bg {
       background-color: #555;

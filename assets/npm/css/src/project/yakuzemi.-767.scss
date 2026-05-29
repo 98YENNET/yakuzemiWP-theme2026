@@ -1,6 +1,6 @@
 @use "../forward" as *;
 
-$_sp-header-height: 48px;
+$_sp-header-height: 56px;
 // ヘッダーをドロワー・オーバーレイより上に表示するため独自に定義
 $_header-z: $sp-sidemenu-z-index + 1; // 106
 
@@ -46,8 +46,8 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
 
     .logo-yakuzemi {
       display: block;
-      width: 140px;
-      height: 20px;
+      width: 160px;
+      height: 24px;
     }
 
     .site-title {
@@ -71,19 +71,19 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
         position: absolute;
         background: #111;
         transition: 0.3s ease-in-out;
-        width: 80%;
+        width: 50%;
         height: 1px;
         left: 10%;
         border-radius: 2px;
 
         &:first-child {
-          top: 26%;
+          top: 30%;
         }
         &:nth-child(2) {
-          top: 47%;
+          top: 50%;
         }
         &:nth-child(3) {
-          top: 71%;
+          top: 70%;
         }
       }
 
@@ -91,12 +91,12 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       &.is-menu-open {
         span:first-child {
           transform: rotate(45deg);
-          top: 38%;
+          top: 45%;
         }
         span:nth-child(2),
         span:nth-child(3) {
           transform: rotate(-45deg);
-          top: 38%;
+          top: 45%;
         }
       }
     }

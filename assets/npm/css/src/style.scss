@@ -3,6 +3,7 @@
 @use "./project/yakuzemi.0-.scss" as projectyakuzemi0-scss;
 @use "./project/fonts.-767.scss" as projectfonts-767scss;
 @use "./project/yakuzemi.-767.scss" as projectyakuzemi-767scss;
+@use "./project/yakuzemi.768-.scss" as projectyakuzemi768-scss;
 @media screen   and (min-width: 0px) {
 	@include projectfonts0-scss.css;
 	@include projectyakuzemi0-scss.css;
@@ -11,5 +12,9 @@
 @media screen   and (max-width: 767px) {
 	@include projectfonts-767scss.css;
 	@include projectyakuzemi-767scss.css;
+}
+
+@media screen   and (min-width: 768px) {
+	@include projectyakuzemi768-scss.css;
 }
 
