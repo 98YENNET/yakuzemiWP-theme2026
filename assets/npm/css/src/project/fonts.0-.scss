@@ -1,0 +1,36 @@
+@use "../forward" as *;
+
+@mixin css {
+  div,
+  span,
+  li,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  a,
+  b,
+  strong {
+    font-family: YakuHanJP, "Manrope", "Kosugi", sans-serif;
+    //color: #333;
+    //line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  div,
+  span,
+  li,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  b,
+  strong {
+    color: #333;
+    line-height: 1.2;
+  }
+}
