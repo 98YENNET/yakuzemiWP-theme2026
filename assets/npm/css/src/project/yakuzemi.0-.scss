@@ -48,5 +48,14 @@
     .sitemap_bg {
       background-color: #555;
     }
+
+    // ─── サイドメニューを通常フローに統一 ───
+    // 旧 accordion.js の fixedSidebar と style.css の PC 用 position:fixed を打ち消す。
+    // fixed だと直後の .side-banner が重なって隠れ（PC）、SP でも表示が崩れるため、
+    // .side-menu / .side-banner を素直に縦積みでスクロールさせる。
+    .right-contents .side-menu {
+      position: static;
+      top: auto;
+    }
   }
 }

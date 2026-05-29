@@ -76,11 +76,16 @@ var fixedSidebar = (function () {
     }
 })();
 
-$(window).on('load', function () {
-    fixedSidebar.run();
-}).on('resize', function () {
-    fixedSidebar.refresh();
-});
+// サイドメニューのスクロール固定は無効化。
+// .side-menu を position:fixed にすると直後の .side-banner がフロー上で
+// 詰め上がって重なり（PCでバナーが隠れる）、SP でも表示が崩れるため、
+// 通常フロー（CSS 側で static 指定）に統一する。
+// （アコーディオン開閉は下記のとおり維持する）
+// $(window).on('load', function () {
+//     fixedSidebar.run();
+// }).on('resize', function () {
+//     fixedSidebar.refresh();
+// });
 
 // サイドバーアコーディオン
 (function ($) {

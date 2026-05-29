@@ -67,6 +67,10 @@
   body.aft26 .sitemap_bg {
     background-color: #555;
   }
+  body.aft26 .right-contents .side-menu {
+    position: static;
+    top: auto;
+  }
 }
 @media screen and (max-width: 767px) {
   window,
