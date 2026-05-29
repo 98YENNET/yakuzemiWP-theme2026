@@ -45,42 +45,7 @@
                     //}
                     ?>
                     <?php the_content(); ?>
-
-                    <section class="seminar-box mb30">
-                        <h3 class="post-title mb20">講習会情報</h3>
-                        <?php //講習会情報表示
-                        $product_terms = wp_get_post_terms($post->ID, 'classroom_category', array("fields" => "slugs"));
-                        $args = array(
-                                'post_type' => 'post', // 投稿「講習会情報」
-                                'posts_per_page' => 10, // 1ページあたりの記事数
-                                'orderby' => 'meta_value',
-                                'meta_key' => '実施日',
-                                'order' => 'ASC',
-                                'tax_query' => array( // カスタムタクソノミー
-                                        'relation' => 'AND',
-                                        array(
-                                                'taxonomy' => 'classroom_category',
-                                                'field' => 'slug',
-                                                'terms' => $product_terms,
-                                        )
-                                )
-                        );
-                        $the_query = new WP_Query($args);
-                        if ($the_query->have_posts()) :
-                            ?>
-                            <ul class="item-list">
-                                <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                                    <li>
-                                        <time datetime="<?php the_field('実施日') ?>"><?php $date = date_create('' . get_field('実施日') . '');
-                                            echo date_format($date, 'Y.m.d'); ?><?php the_field('開始実施選択'); ?></time>
-                                        <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p></li>
-                                    <?php wp_reset_postdata(); endwhile; ?>
-                            </ul>
-                        <?php else : ?>
-                            <p>現在講習会情報はありません。</p>
-                            <?php wp_reset_postdata(); endif; ?>
-                    </section>
-
+                
                     <section class="sns-box clearfix mb30">
                         <ul>
                             <?php if (get_field('line_url')): ?>
