@@ -152,6 +152,36 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
         }
       }
     }
+    .mb-side-menu {
+      > nav {
+        margin-top: -20px;
+        #accordion_box {
+          li {
+            border-bottom: 1px dotted #ccc;
+            a {
+              color: #333;
+              padding: 14px 10px 14px 14px;
+            }
+          }
+        }
+        ul.sns_button {
+          display: flex;
+          flex-wrap: nowrap;
+          width: 90%;
+          margin-left: 5%;
+          justify-content: space-between;
+          li {
+            border: 0;
+            width: 15%;
+            i {
+              &:before {
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   .search-form {
     width: 100%;

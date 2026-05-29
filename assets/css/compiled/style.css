@@ -209,6 +209,30 @@
     transform: rotate(-45deg);
     top: 45%;
   }
+  body.aft26 .mb-side-menu > nav {
+    margin-top: -20px;
+  }
+  body.aft26 .mb-side-menu > nav #accordion_box li {
+    border-bottom: 1px dotted #ccc;
+  }
+  body.aft26 .mb-side-menu > nav #accordion_box li a {
+    color: #333;
+    padding: 14px 10px 14px 14px;
+  }
+  body.aft26 .mb-side-menu > nav ul.sns_button {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+  }
+  body.aft26 .mb-side-menu > nav ul.sns_button li {
+    border: 0;
+    width: 15%;
+  }
+  body.aft26 .mb-side-menu > nav ul.sns_button li i:before {
+    font-size: 1.6rem;
+  }
   .search-form {
     width: 100%;
     height: auto;
