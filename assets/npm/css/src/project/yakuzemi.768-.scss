@@ -6,12 +6,33 @@
       background-color: #efeee9;
     }
 
-    // ─── PC: 右カラムを下端基準で sticky 追従 ───
-    // .right-contents（.side-menu + .side-banner）を1つの塊として追従させる。
-    // bottom 基準のため、画面より高い場合は下側（バナー下部）が残り上部メニューが隠れる。
-    .right-contents {
-      position: sticky;
-      bottom: 20px;
+    // ─── PC: 右カラムを下端基準で sticky 追従（案B） ───
+    // float のままだと position:sticky が効かないため、右カラムを持つ
+    // .page-contents だけを flex 化して通常フローの2カラムにする（:has で限定）。
+    // 右カラム（.side-menu + .side-banner）を1つの塊として bottom 基準で追従。
+    // bottom 基準のため、本文より高い場合は下側（バナー下部）が残り上部メニューが隠れる。
+    // ※ sticky は「本文側が右カラムより高い」ページでのみ追従が発生する。
+    .page-contents:has(> .right-contents) {
+      display: flex;
+      align-items: flex-start; // 伸長させず sticky の可動域を確保
+      gap: 35px;
+
+      // float レイアウト用の clearfix 疑似要素を flex から除外
+      &::after {
+        content: none;
+      }
+
+      > .left-contents {
+        flex: 1 1 auto;
+        width: auto; // style.css の width:76.04% を解除して残り幅を埋める
+        min-width: 0; // 長いコンテンツ/画像でのはみ出し防止
+      }
+
+      > .right-contents {
+        flex: 0 0 200px;
+        position: sticky;
+        bottom: 20px;
+      }
     }
   }
 }

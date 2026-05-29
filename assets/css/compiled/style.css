@@ -311,7 +311,21 @@
   body.aft26 .contents-wrapper {
     background-color: #efeee9;
   }
-  body.aft26 .right-contents {
+  body.aft26 .page-contents:has(> .right-contents) {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+  }
+  body.aft26 .page-contents:has(> .right-contents)::after {
+    content: none;
+  }
+  body.aft26 .page-contents:has(> .right-contents) > .left-contents {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+  body.aft26 .page-contents:has(> .right-contents) > .right-contents {
+    flex: 0 0 200px;
     position: sticky;
     bottom: 20px;
   }
