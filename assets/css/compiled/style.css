@@ -311,6 +311,10 @@
   body.aft26 .contents-wrapper {
     background-color: #efeee9;
   }
+  body.aft26 .right-contents {
+    position: sticky;
+    bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,5 +5,13 @@
     .contents-wrapper {
       background-color: #efeee9;
     }
+
+    // ─── PC: 右カラムを下端基準で sticky 追従 ───
+    // .right-contents（.side-menu + .side-banner）を1つの塊として追従させる。
+    // bottom 基準のため、画面より高い場合は下側（バナー下部）が残り上部メニューが隠れる。
+    .right-contents {
+      position: sticky;
+      bottom: 20px;
+    }
   }
 }
