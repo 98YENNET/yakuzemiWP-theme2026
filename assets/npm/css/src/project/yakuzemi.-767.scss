@@ -64,6 +64,8 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       right: 8px;
       transform: translateY(-50%);
       display: flex;
+      // 表示順を逆に: 左から MY PAGE → FAQ → ハンバーガー
+      flex-direction: row-reverse;
       align-items: flex-start;
       gap: 8px;
     }

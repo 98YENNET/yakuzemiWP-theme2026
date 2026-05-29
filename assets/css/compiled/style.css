@@ -139,6 +139,7 @@
     right: 8px;
     transform: translateY(-50%);
     display: flex;
+    flex-direction: row-reverse;
     align-items: flex-start;
     gap: 8px;
   }
