@@ -327,7 +327,7 @@
   body.aft26 .page-contents:has(> .right-contents) > .right-contents {
     flex: 0 0 200px;
     position: sticky;
-    bottom: 20px;
+    top: 20px;
   }
 }
 
