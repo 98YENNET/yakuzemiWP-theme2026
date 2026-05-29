@@ -1,30 +1,31 @@
 @use "../forward" as *;
 
 @mixin css {
-  window,body{
-    font-size:14px;
+  window,
+  body {
+    font-size: 14px;
   }
   body.aft26 {
     .page-title {
-      font-family: YakuHanJP,"M PLUS 1p", sans-serif;
+      font-family: YakuHanJP, "M PLUS 1p", sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size:1.4rem;
+      font-size: 1.4rem;
     }
-    .sec-title{
-      font-family: YakuHanJP,"M PLUS 1p", sans-serif;
+    .sec-title {
+      font-family: YakuHanJP, "M PLUS 1p", sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size:1.1rem;
+      font-size: 1.1rem;
       letter-spacing: 0.02em;
     }
-    .sec-subheading{
-      font-family: YakuHanJP,"M PLUS 1p", sans-serif;
+    .sec-subheading {
+      font-family: YakuHanJP, "M PLUS 1p", sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size:1.1rem;
+      font-size: 1.1rem;
       letter-spacing: 0.02em;
-      color:#555;
+      color: #555;
     }
   }
 }

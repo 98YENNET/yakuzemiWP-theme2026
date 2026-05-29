@@ -76,9 +76,15 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
         left: 10%;
         border-radius: 2px;
 
-        &:first-child  { top: 26%; }
-        &:nth-child(2) { top: 47%; }
-        &:nth-child(3) { top: 71%; }
+        &:first-child {
+          top: 26%;
+        }
+        &:nth-child(2) {
+          top: 47%;
+        }
+        &:nth-child(3) {
+          top: 71%;
+        }
       }
 
       // 開放時: 3本線 → ✕
@@ -101,8 +107,8 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    #searchsubmit{
-      background-color: #DDD;
+    #searchsubmit {
+      background-color: #ddd;
     }
   }
   // ─── slidebars の #sb-site スライドを無効化 ───

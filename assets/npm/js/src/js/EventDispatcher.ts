@@ -69,7 +69,7 @@ export namespace events {
     addEventListener(
       type: string,
       callback: Function,
-      priolity?: number
+      priolity?: number,
     ): void {
       if (priolity == null) priolity = 0;
 

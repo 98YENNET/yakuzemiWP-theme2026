@@ -7,7 +7,5 @@
     "sourceMap": true,
     "allowJs": true
   },
-  "include": [
-    "./js/**/*"
-  ]
+  "include": ["./js/**/*"]
 }

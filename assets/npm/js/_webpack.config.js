@@ -1,17 +1,15 @@
 /** ↓ エディタで補完を効かせるための JSDoc */
 /** @type {import('webpack').Configuration} */
-const webpack = require('webpack');
+const webpack = require("webpack");
 module.exports = {
-  entry: [
-	"{{entryPath}}",
-   ],
+  entry: ["{{entryPath}}"],
   mode: "none",
   output: {
-  	path:"{{jsDir}}",
-	filename: "{{jsName}}",//ビルドした後のファイル名
-	environment: {
-      arrowFunction: false
-    }
+    path: "{{jsDir}}",
+    filename: "{{jsName}}", //ビルドした後のファイル名
+    environment: {
+      arrowFunction: false,
+    },
   },
   module: {
     rules: [
@@ -23,9 +21,9 @@ module.exports = {
           {
             loader: "ts-loader",
             options: {
-              configFile: "{{tsSorceDir}}/tsconfig.json" // tsconfig.jsonの場所
-            }
-          }
+              configFile: "{{tsSorceDir}}/tsconfig.json", // tsconfig.jsonの場所
+            },
+          },
         ],
       },
       {
@@ -36,13 +34,10 @@ module.exports = {
       },
     ],
   },
-   resolve: {
-   modules: ['{{npmPath}}/node_modules/'],
-	// 拡張子を配列で指定
-	extensions: [
-	  '.ts',
-	  '.js',
-	],
+  resolve: {
+    modules: ["{{npmPath}}/node_modules/"],
+    // 拡張子を配列で指定
+    extensions: [".ts", ".js"],
   },
   //plugins: [
   //  new webpack.ProvidePlugin({
@@ -51,7 +46,7 @@ module.exports = {
   //],
   externals: [
     {
-      jquery: 'jQuery'
-    }
-  ]
+      jquery: "jQuery",
+    },
+  ],
 };
