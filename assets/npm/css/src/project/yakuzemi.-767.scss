@@ -111,8 +111,11 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       top: 0;
       right: 0;
       flex: 0 0 auto;
-      width: 28px;
-      height: 28px;
+      // FAQ アイコンより 1.2 倍ほど大きく
+      width: 34px;
+      height: 34px;
+      // FAQ との間隔をコンテナ gap(8px) の倍に（row-reverse のため左側 = FAQ 側）
+      margin-left: 8px;
       cursor: pointer;
 
       span {

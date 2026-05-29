@@ -176,8 +176,9 @@
     top: 0;
     right: 0;
     flex: 0 0 auto;
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 34px;
+    margin-left: 8px;
     cursor: pointer;
   }
   body.aft26 .mb-menu-button span {
