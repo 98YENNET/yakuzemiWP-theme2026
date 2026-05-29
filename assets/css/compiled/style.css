@@ -19,13 +19,16 @@
   span,
   li,
   p,
+  b,
+  strong {
+    color: #333;
+    line-height: 1.6;
+  }
   h1,
   h2,
   h3,
   h4,
-  h5,
-  b,
-  strong {
+  h5 {
     color: #333;
     line-height: 1.2;
   }
@@ -211,6 +214,7 @@
   }
   body.aft26 .mb-side-menu > nav {
     margin-top: -20px;
+    padding-bottom: 100px;
   }
   body.aft26 .mb-side-menu > nav #accordion_box li {
     border-bottom: 1px dotted #ccc;
@@ -220,7 +224,7 @@
     padding: 14px 10px 14px 14px;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li {
-    background: #dddddd;
+    background: #f2f7f4;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > a {
     color: #222;
@@ -229,7 +233,7 @@
     color: #00438e;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > ul > li {
-    background: #cccccc;
+    background: #e6e9e9;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > ul > li > a {
     color: #1a1a1a;

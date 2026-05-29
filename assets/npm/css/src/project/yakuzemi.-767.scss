@@ -155,6 +155,7 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
     .mb-side-menu {
       > nav {
         margin-top: -20px;
+        padding-bottom: 100px;
         #accordion_box {
           li {
             border-bottom: 1px dotted #ccc;
@@ -167,7 +168,7 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
           // ─── 第2階層: 背景 #DDDDDD ───
           // ul.second_list（クラス無しの入れ子 ul も拾えるよう構造で指定）
           > li > ul > li {
-            background: #dddddd;
+            background: #f2f7f4;
             > a {
               color: #222;
               // 下向きアイコンは背景に合わせて濃いめのブランドカラーに
@@ -179,7 +180,7 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
 
           // ─── 第3階層: 背景 #CCCCCC ───
           > li > ul > li > ul > li {
-            background: #cccccc;
+            background: #e6e9e9;
             > a {
               color: #1a1a1a;
               .fa-angle-down {
