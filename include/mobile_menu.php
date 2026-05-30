@@ -6,6 +6,42 @@
         </div>
     </form>
 
+    <!-- クイックリンク（2列：左→右）アイコンはヘッダーのMY PAGE等と同テイスト -->
+    <ul class="spMenuQuick">
+        <li>
+            <a href="https://www.mypage.yakuzemi.ac.jp/login/" target="_blank" rel="noopener">
+                <svg class="spMenuQuick__icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2z"/>
+                </svg>
+                <span>受講申し込み<br>(マイページ)</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://yakuzemi.study.jp/rpv/" target="_blank" rel="noopener">
+                <svg class="spMenuQuick__icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+                </svg>
+                <span>オンライン教室<br>ログイン</span>
+            </a>
+        </li>
+        <li>
+            <a href="<?php echo esc_url(home_url('/')); ?>contact/">
+                <svg class="spMenuQuick__icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M11.07 12.85c.77-1.39 2.25-2.21 3.11-3.44.91-1.29.4-3.7-2.18-3.7-1.69 0-2.52 1.28-2.87 2.34L6.54 6.96C7.25 4.83 9.18 3 11.99 3c2.35 0 3.96 1.07 4.78 2.41.7 1.15 1.11 3.3.03 4.9-1.2 1.77-2.35 2.31-2.97 3.45-.25.46-.35.76-.35 2.24h-2.89c-.01-.78-.13-2.05.48-3.15zM14 20c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2z"/>
+                </svg>
+                <span>問い合わせ・FAQ</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://ph-port.jp/" target="_blank" rel="noopener">
+                <svg class="spMenuQuick__icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4.22 11.29l7.07-7.07c2.34-2.34 6.14-2.34 8.49 0 2.34 2.35 2.34 6.14 0 8.49l-7.07 7.07c-2.35 2.34-6.15 2.34-8.49 0-2.34-2.35-2.34-6.15 0-8.49zm1.42 1.42c-1.05 1.05-1.4 2.58-1.05 3.96l5.99-5.99 3.74 3.74 2.35-2.35c.78-.78.78-2.04 0-2.83l-1.91-1.91c-.79-.78-2.05-.78-2.83 0l-6.29 5.38z"/>
+                </svg>
+                <span>薬剤師の方</span>
+            </a>
+        </li>
+    </ul>
+
     <nav>
         <ul id="accordion_box">
             <li><a href="<?php echo esc_url(home_url('/')); ?>">トップページ</a></li>
