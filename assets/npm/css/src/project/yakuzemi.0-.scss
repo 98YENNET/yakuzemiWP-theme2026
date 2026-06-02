@@ -57,5 +57,22 @@
       position: static;
       top: auto;
     }
+
+    // ─── ul.social の X / LINE ボタンの高さを揃える ───
+    // X(.button-tw) は style.css で height:24px 固定、LINE は share-a(small) の
+    // iframe で約20px。両者を 20px に揃え、縦位置も中央で合わせる。
+    .social {
+      li {
+        vertical-align: middle;
+      }
+      .button-tw {
+        height: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }
