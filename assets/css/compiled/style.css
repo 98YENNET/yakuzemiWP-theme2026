@@ -288,6 +288,9 @@
   body.aft26 .mb-side-menu > nav ul.sns_button li i:before {
     font-size: 1.6rem;
   }
+  body.aft26 .sec-title {
+    border-left: 8px solid #00438e;
+  }
   .search-form {
     width: 100%;
     height: auto;
@@ -366,11 +369,12 @@
   body.aft26 .spMenuQuick a span {
     line-height: 1.2em;
     color: #555;
+    padding-left: 3px;
   }
   body.aft26 .spMenuQuick__icon {
     flex: 0 0 auto;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     padding: 5px;
     border-radius: 50%;
     background: #00438e;

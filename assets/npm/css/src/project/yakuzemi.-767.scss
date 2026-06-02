@@ -217,6 +217,9 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
         }
       }
     }
+    .sec-title {
+      border-left: 8px solid #00438e;
+    }
   }
   .search-form {
     width: 100%;
@@ -311,14 +314,15 @@ $_header-z: $sp-sidemenu-z-index + 1; // 106
       span {
         line-height: 1.2em;
         color: #555;
+        padding-left: 3px;
       }
     }
 
     // 青丸に白抜きアイコン（ヘッダーのアクションアイコンと同テイスト）
     &__icon {
       flex: 0 0 auto;
-      width: 24px;
-      height: 24px;
+      width: 28px;
+      height: 28px;
       padding: 5px;
       border-radius: 50%;
       background: #00438e;
