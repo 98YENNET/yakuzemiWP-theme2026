@@ -1,7 +1,7 @@
 <div class="mb-side-menu sb-slidebar sb-right">
     <form role="search" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
         <div class="search-form mb20">
-            <input type="text" value="" name="s" id="s"/>
+            <input type="text" value="" name="s" id="s" placeholder="サイト内検索"/>
             <input type="submit" id="searchsubmit" value=""/>
         </div>
     </form>
@@ -35,9 +35,9 @@
         <li>
             <a href="https://ph-port.jp/" target="_blank" rel="noopener">
                 <svg class="spMenuQuick__icon" viewBox="0 -960 960 960" aria-hidden="true">
-                    <!-- 左下側の半分を白で塗りつぶし -->
-                    <path d="M345-200q29 0 56-11t47-31l106-107-205-205-107 106q-20 20-31 47t-11 56q0 60 42.5 102.5T345-200Z" fill="#ffffff"/>
-                    <path d="M345-120q-94 0-159.5-65.5T120-345q0-45 17-86t49-73l270-270q32-32 73-49t86-17q94 0 159.5 65.5T840-615q0 45-17 86t-49 73L504-186q-32 32-73 49t-86 17Zm266-286 107-106q20-20 31-47t11-56q0-60-42.5-102.5T615-760q-29 0-56 11t-47 31L406-611l205 205ZM345-200q29 0 56-11t47-31l106-107-205-205-107 106q-20 20-31 47t-11 56q0 60 42.5 102.5T345-200Z"/>
+                    <!-- 左下側の半分を白で塗りつぶし。枠との継ぎ目を消すため同色ストロークで外側へ約0.5px拡張 -->
+                    <path d="M345-200q29 0 56-11t47-31l106-107-205-205-107 106q-20 20-31 47t-11 56q0 60 42.5 102.5T345-200Z" fill="#ffffff" stroke="#ffffff" stroke-width="68" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" d="M345-120q-94 0-159.5-65.5T120-345q0-45 17-86t49-73l270-270q32-32 73-49t86-17q94 0 159.5 65.5T840-615q0 45-17 86t-49 73L504-186q-32 32-73 49t-86 17ZM718-512q20-20 31-47t11-56q0-60-42.5-102.5T615-760q-29 0-56 11t-47 31L406-611L242-448q-20 20-31 47t-11 56q0 60 42.5 102.5T345-200q29 0 56-11t47-31l106-107L718-512Z"/>
                 </svg>
                 <span>薬剤師の方</span>
             </a>
