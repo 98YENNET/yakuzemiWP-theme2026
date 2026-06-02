@@ -32,6 +32,13 @@
     color: #333;
     line-height: 1.2;
   }
+  body.aft26 .page-title {
+    font-family: YakuHanJP, "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #014a96;
+  }
   html {
     height: auto;
     min-height: 100%;
@@ -73,6 +80,10 @@
   }
   body.aft26 .social li {
     vertical-align: middle;
+  }
+  body.aft26 .social .line {
+    width: 87px;
+    margin-top: 5px;
   }
   body.aft26 .social .button-tw {
     height: 20px;
@@ -126,6 +137,13 @@
   }
   body.aft26 header.hidePC.is-header-hidden {
     transform: translateY(-100%);
+  }
+  body.aft26 .breadcrumbs ul li {
+    font-size: 10px;
+  }
+  body.aft26 ul.social {
+    padding-bottom: 5px;
+    border-bottom: 1px #ccc solid;
   }
   body.aft26 .contact-box {
     display: none;
@@ -239,13 +257,13 @@
     padding: 14px 10px 14px 14px;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li {
-    background: #f2f7f4;
+    background: #f4f2f1;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > a {
     color: #222;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > a .fa-angle-down {
-    color: #00438e;
+    color: #999;
   }
   body.aft26 .mb-side-menu > nav #accordion_box > li > ul > li > ul > li {
     background: #e6e9e9;
