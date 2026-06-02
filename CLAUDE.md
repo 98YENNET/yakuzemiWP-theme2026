@@ -110,6 +110,30 @@ CLAUDE.md の規約参照）:
 - cssは、./cssディレクトリ内のファイルの変更が必避けられない場合以外は、`assets/npm/css/scr/project`内で開発をする
 
 
+### css
+`npm/css/src/project`
+に、.scssで作成する
+
+#### メディアクエリ
+ビルドシステムで、ファイル名から適用される画面幅を振り分けるようになっている
+```
+sample.0-.scss
+sample.-767.scss
+sample.768-1024.scss
+```
+
+
+#### テンプレート
+sample.0-.scss
+```scss
+@use "../forward" as *;
+
+@mixin css {
+	//ここに記述
+}
+```
+
+
 ### css jsビルド
 
 css・js のソースを更新した場合は、以下の手順でビルドを実行する。
