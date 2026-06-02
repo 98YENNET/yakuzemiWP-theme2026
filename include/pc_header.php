@@ -13,7 +13,7 @@
 
         <form role="search" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
             <div class="search-form">
-                <input type="text" value="" name="s" id="s"/>
+                <input type="text" value="" name="s" id="s" placeholder="サイト内検索" />
                 <input type="submit" id="searchsubmit" value=""/>
             </div>
         </form>
