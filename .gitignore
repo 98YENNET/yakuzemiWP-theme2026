@@ -28,3 +28,7 @@ assets/css/compiled/hash.txt
 assets/css/compiled/style.css.map
 assets/js/compiled/hash.txt
 assets/js/compiled/main.js
+
+# Claude Code
+CLAUDE.md
+.claude/
