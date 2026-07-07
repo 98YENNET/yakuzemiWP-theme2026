@@ -80,7 +80,8 @@
                             </li>
                             <li><a href="<?php echo esc_url(home_url('/')); ?>classroom/ikebukuro">池袋教室</a></li>
                             <li><a href="<?php echo esc_url(home_url('/')); ?>classroom/shinjyuku">新宿教室</a></li>
-                            <li><a href="<?php echo esc_url(home_url('/')); ?>classroom/ichigaya">市ヶ谷教室</a></li>
+                            <li><a href="https://igakuacademy.ac.jp/ph/" rel="noopener" target="_blank">医学アカデミー市ヶ谷校</a>
+                            </li>
                             <li><a href="<?php echo esc_url(home_url('/')); ?>classroom/yokohama">横浜教室</a></li>
                         </ul>
                     </li>

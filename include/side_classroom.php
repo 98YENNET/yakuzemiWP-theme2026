@@ -27,9 +27,7 @@
                 <li>
                     <a href="<?php echo esc_url(home_url('/')); ?>classroom/shinjyuku"<?php if (is_object_in_term($post->ID, 'classroom_category', 'shinjyuku')): ?> class="switch current" <?php else: ?> class="switch" <?php endif; ?>>新宿教室</a>
                 </li>
-                <li>
-                    <a href="<?php echo esc_url(home_url('/')); ?>classroom/ichigaya"<?php if (is_object_in_term($post->ID, 'classroom_category', 'ichigaya')): ?> class="switch current" <?php else: ?> class="switch" <?php endif; ?>>市ヶ谷教室</a>
-                </li>
+                <li><a href="https://igakuacademy.ac.jp/ph/" target="_blank">医学アカデミー市ヶ谷校</a></li>
                 <li>
                     <a href="<?php echo esc_url(home_url('/')); ?>classroom/yokohama"<?php if (is_object_in_term($post->ID, 'classroom_category', 'yokohama')): ?> class="switch current" <?php else: ?> class="switch" <?php endif; ?>>横浜教室</a>
                 </li>
