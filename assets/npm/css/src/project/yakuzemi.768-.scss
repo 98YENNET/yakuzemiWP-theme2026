@@ -35,5 +35,23 @@
         top: 20px;
       }
     }
+
+    // ─── PC幅ではSPドロワーを強制的に隠す ───
+    // SPでドロワー（.sb-slidebar）を開いたままPC幅までリサイズされると、
+    // slidebars.js が付与した .sb-active（display:block）がJS側では解除されず
+    // 開いたまま残ってしまう。PC幅ではハンバーガーメニュー自体を使わないため、
+    // !important でJSの開閉状態に関わらず強制的に非表示にする。
+    .sb-slidebar {
+      display: none !important;
+    }
+
+    // ─── slidebars の #sb-site スライドをPC幅で無効化 ───
+    // ドロワーを開くと slidebars.js が #sb-site に transform: translate(-N%) を
+    // インラインstyleで付与するが、SPで開いたままPC幅にリサイズしてもJS側の
+    // 状態は解除されないため居残る。yakuzemi.-767.scss の同名対策と同じく、
+    // !important でインラインstyleを上書きして常時無効化する。
+    #sb-site {
+      transform: none !important;
+    }
   }
 }
